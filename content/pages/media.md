@@ -25,7 +25,7 @@ sections:
         elementId: ''
         type: Button
       - label: Videos
-        altText: Learn more
+        altText: View videos
         url: /
         showIcon: false
         icon: arrowLeft
