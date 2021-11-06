@@ -37,7 +37,19 @@
                 "altText": "Tara Lynn's yoga studio"
             }
         ],
-        "secondaryLinks": [],
+        "secondaryLinks": [
+            {
+                "label": "Learn more",
+                "altText": "Learn more",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "link",
+                "elementId": "",
+                "type": "Link"
+            }
+        ],
         "styles": {
             "self": {
                 "width": "narrow",
