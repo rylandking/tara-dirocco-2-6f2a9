@@ -6,7 +6,7 @@ labelField: label
     name: contentType
     label: Content Type
     options:
-      - arrowLeft
+      - Blogs
       - arrowRight
       - cart
       - facebook
