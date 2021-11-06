@@ -64,6 +64,7 @@ export default function Action(props) {
             })}
             data-sb-field-path={annotations.join(' ').trim()}
             onClick={() => { canSetCategory === true && setCategory(label) }}
+            onClick={() => { canSetCategory === true && setCategory(label) }}
         >
             {label && <span>{label}</span>}
             {showIcon && IconComponent && (
