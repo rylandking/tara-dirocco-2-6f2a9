@@ -29,7 +29,7 @@ sections:
         showIcon: false
         icon: arrowLeft
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
         type: Button
       - type: Button
