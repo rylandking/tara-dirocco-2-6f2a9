@@ -1,7 +1,7 @@
 {
     "type": "Config",
     "header": {
-        "headerVariant": "variant-a",
+        "headerVariant": "variant-d",
         "primaryColors": "colors-a",
         "secondaryColors": "colors-a",
         "backgroundWidth": "full",
