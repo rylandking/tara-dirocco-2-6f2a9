@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components/dist/components-registry';
 import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
 import getPageUrlPath from '@stackbit/components/dist/utils/get-page-url-path';
-import Link from '../../utils/link';
+import Link from '@stackbit/components/dist/utils/link';
 
 export default function PostFeedSection(props) {
     const colors = props.colors || 'colors-a';
