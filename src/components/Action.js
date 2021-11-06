@@ -63,8 +63,8 @@ export default function Action(props) {
                 'sb-component-button-secondary': style === 'secondary'
             })}
             data-sb-field-path={annotations.join(' ').trim()}
-            // onClick={() => { canSetCategory === true && setCategory(label) }}
-            onClick={() => { setCategory(label) }}
+            onClick={() => { canSetCategory === true && setCategory(label) }}
+        // onClick={() => { setCategory(label) }}
         >
             {label && <span>{label}</span>}
             {showIcon && IconComponent && (
