@@ -10,12 +10,7 @@ sections:
     text: >
       Tara Lynn is a yoga teacher, physical therapy student, and blogger with a
       focus on chronic illness & pain, pelvic health, and yoga.
-    actions:
-      - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
-        style: primary
-        elementId: hero-main-button
+    actions: []
     feature:
       type: ImageBlock
       url: /images/hero.png
