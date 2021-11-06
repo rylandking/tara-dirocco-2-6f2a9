@@ -7,7 +7,7 @@ labelField: label
     label: Content Type
     options:
       - Blogs
-      - arrowRight
+      - Podcasts
       - cart
       - facebook
       - github
