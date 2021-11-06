@@ -102,8 +102,8 @@ function PostFeedVariants(props) {
 }
 
 function postsVariantA(props) {
+    const { category } = useContext(GlobalContext);
 
-    
     const posts = props.posts || [];
 
     if (posts.length === 0) {
