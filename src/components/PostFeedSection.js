@@ -125,12 +125,12 @@ function postsVariantA(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2 className="text-xl sm:text-2xl mb-1">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2 className="text-xl sm:text-2xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
@@ -177,12 +177,12 @@ function postsVariantB(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2 className="text-xl sm:text-2xl md:text-3xl mb-1">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2 className="text-xl sm:text-2xl md:text-3xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
