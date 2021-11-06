@@ -7,10 +7,12 @@ import { GlobalProvider } from '../context/GlobalState';
 export default function MyApp({ Component, pageProps }) {
     return (
         <>
-            <Head>
-                <link rel="icon" href="/favicon.svg" />
-            </Head>
-            <Component {...pageProps} />
+            <GlobalProvider>
+                <Head>
+                    <link rel="icon" href="/favicon.svg" />
+                </Head>
+                <Component {...pageProps} />
+            </GlobalProvider>
         </>
     );
 }
