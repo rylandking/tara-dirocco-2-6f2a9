@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '../../utils/link';
+import Link from '@st';
 import ArrowLeft from '../../svgs/arrow-left';
 import ArrowRight from '../../svgs/arrow-right';
 import Cart from '../../svgs/cart';
