@@ -45,7 +45,7 @@ export default function Action(props) {
 
     const { category, setCategory } = useContext(GlobalContext);
 
-    console.log(category);
+    console.log(label);
 
     return (
         <Link
