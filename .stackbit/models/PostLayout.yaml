@@ -11,7 +11,7 @@ fields:
     name: category
     label: Category
     models:
-      - Person
+      - MediaFilters
   - type: date
     name: date
     label: Date
