@@ -133,7 +133,7 @@ sections:
       actions:
         justifyContent: center
   - type: TextSection
-    colors: colors-f
+    colors: colors-a
     backgroundWidth: full
     title: The Section Title
     subtitle: The section subtitle
