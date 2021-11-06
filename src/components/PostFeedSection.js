@@ -111,10 +111,11 @@ function postsVariantA(props) {
         return null;
     }
 
-    posts = posts.filter(function (post) {
-        
-        return post.category === category;
-    });
+    if (category !== 'View all') {
+        posts = posts.filter(function (post) {
+            return post.category === category;
+        });
+    }
 
     const ImageBlock = getComponent('ImageBlock');
 
