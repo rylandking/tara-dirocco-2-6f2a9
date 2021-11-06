@@ -181,40 +181,6 @@ sections:
         fontWeight: '400'
         fontStyle: normal
         textAlign: center
-  - type: CtaSection
-    colors: colors-c
-    backgroundWidth: full
-    title: Let's do this
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
-    actions:
-      - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
-        style: primary
-    actionsPosition: right
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: TextSection
     colors: colors-f
     backgroundWidth: full
