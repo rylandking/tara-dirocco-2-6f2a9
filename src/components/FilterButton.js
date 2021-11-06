@@ -3,12 +3,12 @@ import classNames from 'classnames';
 import Link from '@stackbit/components/dist/utils/link';
 import ArrowLeft from '@stackbit/components/dist/svgs/arrow-left';
 import ArrowRight from '../../svgs/arrow-right';
-import Cart from '../../svgs/cart';
-import Facebook from '../../svgs/facebook';
-import GitHub from '../../svgs/github';
-import Instagram from '../../svgs/instagram';
-import LinkedIn from '../../svgs/linkedin';
-import Twitter from '../../svgs/twitter';
+import Cart from '@stackbit/components/dist/svgs/cart';
+import Facebook from '@stackbit/components/dist/svgs/facebook';
+import GitHub from '@stackbit/components/dist/svgs/github';
+import Instagram from '@stackbit/components/dist/svgs/instagram';
+import LinkedIn from '@stackbit/components/dist/svgs/linkedin';
+import Twitter from '@stackbit/components/dist/svgs/twitter';
 
 const iconMap = {
     arrowLeft: ArrowLeft,
