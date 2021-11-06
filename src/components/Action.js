@@ -47,6 +47,8 @@ export default function Action(props) {
 
     console.log(label);
 
+    
+
     return (
         <Link
             href={url}
