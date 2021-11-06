@@ -132,55 +132,6 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - type: TestimonialsSection
-    colors: colors-h
-    backgroundWidth: full
-    testimonials:
-      - quote: >-
-          “It’s great to see someone taking action while still maintaining a
-          sustainable fish supply to home cooks.”
-        name: Isabelle Parks
-        title: Head chef at Parks
-        image:
-          type: ImageBlock
-          url: /images/isabelle-parks.jpg
-          altText: Isabelle Parks
-        styles:
-          self:
-            margin:
-              - mt-0
-              - mb-0
-            flexDirection: row
-          quote:
-            textAlign: left
-          name:
-            fontWeight: '700'
-            fontStyle: normal
-            textAlign: left
-          title:
-            fontWeight: '400'
-            fontStyle: normal
-            textAlign: left
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: center
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
   - type: TextSection
     colors: colors-f
     backgroundWidth: full
