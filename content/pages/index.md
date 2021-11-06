@@ -52,14 +52,6 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundWidth: full
-    backgroundImage:
-      altText: lorem-ipsum
-      caption: lorem-ipsum
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
     title: Hello! I’m Tara Lynn
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
