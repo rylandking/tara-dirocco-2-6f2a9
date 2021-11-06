@@ -116,13 +116,7 @@
                 "icon": "facebook"
             }
         ],
-        "legalLinks": [
-            {
-                "type": "Link",
-                "label": "Terms & Conditions",
-                "url": "/"
-            }
-        ],
+        "legalLinks": [],
         "styles": {
             "self": {
                 "width": "narrow",
