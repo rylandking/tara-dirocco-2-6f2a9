@@ -70,7 +70,7 @@ sections:
     actions: []
     feature:
       type: ImageBlock
-      url: /images/hero.png
+      url: /images/tara-lynn-dirocco-side-view-600h.png
       altText: Hero section image
     styles:
       self:
