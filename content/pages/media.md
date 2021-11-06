@@ -26,7 +26,6 @@ sections:
         type: Button
       - label: Videos
         altText: View videos
-        url: /
         showIcon: false
         icon: arrowLeft
         iconPosition: right
