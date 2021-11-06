@@ -6,6 +6,7 @@ registerComponents({
     // Register all Stackbit components
     ...componentsMap,
     Action: dynamic(() => import('./Action.js')),
+    Action: dynamic(() => import('./Action.js')),
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
