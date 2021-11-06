@@ -8,7 +8,7 @@ fields:
     default: Post Title
     required: true
   - type: enum
-    name: contentType
+    name: category
     label: Content Type
     options:
       - Blogs
