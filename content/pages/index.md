@@ -67,12 +67,7 @@ sections:
 
       I am an experiential believer that we can explore our pain to uncover the
       stories that guide us, and even ENJOY the process while we are at it!
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-        elementId: hero-main-button
+    actions: []
     feature:
       type: ImageBlock
       url: /images/hero.png
