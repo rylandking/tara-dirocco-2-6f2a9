@@ -99,7 +99,8 @@
                 "altText": "Instagram",
                 "url": "/",
                 "showIcon": true,
-                "icon": "instagram"
+                "icon": "instagram",
+                "label": "Join me on Instagram"
             }
         ],
         "legalLinks": [],
