@@ -119,11 +119,6 @@
         "legalLinks": [
             {
                 "type": "Link",
-                "label": "Privacy Policy",
-                "url": "/"
-            },
-            {
-                "type": "Link",
                 "label": "Terms & Conditions",
                 "url": "/"
             }
