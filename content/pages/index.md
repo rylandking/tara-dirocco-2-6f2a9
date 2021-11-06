@@ -52,7 +52,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundWidth: full
-    title: Hello! I’m Tara Lynn
+    title: Hello! I’m Tara Lynn.
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
