@@ -9,7 +9,7 @@ fields:
     required: true
   - type: enum
     name: category
-    label: Content Type
+    label: category
     options:
       - Blogs
       - Podcasts
