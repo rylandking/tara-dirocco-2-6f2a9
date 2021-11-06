@@ -83,7 +83,7 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "Media",
                 "url": "/blog",
                 "altText": ""
             }
