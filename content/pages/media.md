@@ -6,7 +6,7 @@ sections:
     colors: colors-h
     backgroundWidth: full
     title: Latest news
-    subtitle: Latest blog posts section example
+    subtitle: 'Love-based, science-based resources'
     actions:
       - label: Blogs
         altText: View blog posts
