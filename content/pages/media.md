@@ -18,7 +18,6 @@ sections:
         type: Button
       - label: Podcasts
         altText: View podcasts
-        url: /
         showIcon: false
         icon: arrowLeft
         iconPosition: right
