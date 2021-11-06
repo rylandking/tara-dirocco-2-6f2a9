@@ -63,20 +63,18 @@ export default function Action(props) {
                 'sb-component-button-secondary': style === 'secondary'
             })}
             data-sb-field-path={annotations.join(' ').trim()}
-            onClick={() => { canSetCategory === true && setCategory(label) )}
+            onClick={() => { canSetCategory === true && setCategory(label) })}
         >
-    { label && <span>{label}</span>}
-{
-showIcon && IconComponent && (
-    <IconComponent
-        className={classNames('fill-current h-5 w-5', {
-            'order-first': iconPosition === 'left',
-            'mr-1.5': label && iconPosition === 'left',
-            'ml-1.5': label && iconPosition === 'right'
-        })}
-    />
-)
-}
-        </Link >
+            {label && <span>{label}</span>}
+            {showIcon && IconComponent && (
+                <IconComponent
+                    className={classNames('fill-current h-5 w-5', {
+                        'order-first': iconPosition === 'left',
+                        'mr-1.5': label && iconPosition === 'left',
+                        'ml-1.5': label && iconPosition === 'right'
+                    })}
+                />
+            )}
+        </Link>
     );
 }
