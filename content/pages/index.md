@@ -60,7 +60,7 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
-    title: This Is A Big Hero Headline
+    title: Hello! I’m Tara Lynn
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
