@@ -8,8 +8,8 @@ sections:
     backgroundWidth: full
     title: Your body is new every moment.
     text: >
-      Tara Lynn is a yoga teacher, physical therapy student, and blogger with a
-      focus on chronic illness & pain, pelvic health, and yoga.
+      Tara Lynn is a yoga teacher, doctor of physical therapy, and blogger with
+      a focus on chronic illness & pain, pelvic health, and yoga.
     actions: []
     styles:
       self:
