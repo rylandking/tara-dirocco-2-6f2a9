@@ -33,7 +33,7 @@
             {
                 "label": "Yoga Stuio",
                 "altText": "Learn more",
-                "url": "/",
+                "url": "/studio",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
