@@ -117,7 +117,6 @@ function postsVariantA(props) {
         });
     }
 
-
     const ImageBlock = getComponent('ImageBlock');
 
     return (
