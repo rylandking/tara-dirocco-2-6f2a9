@@ -84,7 +84,7 @@
             {
                 "type": "Link",
                 "label": "Media",
-                "url": "/blog",
+                "url": "/media",
                 "altText": "Media"
             }
         ],
