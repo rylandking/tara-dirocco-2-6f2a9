@@ -34,7 +34,6 @@ sections:
         type: Button
       - type: Button
         label: View all
-        url: /
         style: primary
         altText: View all media
     showRecent: false
