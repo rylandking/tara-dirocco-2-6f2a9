@@ -26,7 +26,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: Learn more
+      - label: Videos
         altText: Learn more
         url: /
         showIcon: false
