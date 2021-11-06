@@ -90,7 +90,7 @@
             {
                 "label": "Yoga Studio",
                 "altText": "Yoga Studio",
-                "url": "/",
+                "url": "/studio",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
