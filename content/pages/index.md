@@ -61,7 +61,6 @@ sections:
           opacity: 100
       type: ImageBlock
     title: This Is A Big Hero Headline
-    subtitle: This Is Subtitle
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
