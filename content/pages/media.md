@@ -17,7 +17,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: Learn more
+      - label: Podcasts
         altText: Learn more
         url: /
         showIcon: false
