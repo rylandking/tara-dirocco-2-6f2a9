@@ -44,13 +44,6 @@
         ],
         "secondaryLinks": [
             {
-                "type": "Link",
-                "label": "Sign in",
-                "url": "/",
-                "altText": "Sign in",
-                "style": "link"
-            },
-            {
                 "type": "Button",
                 "label": "Sign up",
                 "url": "/",
