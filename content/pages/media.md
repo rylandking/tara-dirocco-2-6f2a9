@@ -36,6 +36,7 @@ sections:
         label: View all
         url: /
         style: primary
+        altText: View all media
     showRecent: false
     recentCount: 6
     styles:
