@@ -9,7 +9,7 @@ labelField: label
       - Blogs
       - Podcasts
       - Videos
-    default: arrowLeft
+    default: Blogs
   - type: enum
     name: iconPosition
     group: styles
