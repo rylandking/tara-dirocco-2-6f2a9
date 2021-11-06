@@ -11,6 +11,8 @@ import Instagram from '@stackbit/components/dist/svgs/instagram';
 import LinkedIn from '@stackbit/components/dist/svgs/linkedin';
 import Twitter from '@stackbit/components/dist/svgs/twitter';
 
+import { GlobalContext } from '../context/GlobalState';
+
 const iconMap = {
     arrowLeft: ArrowLeft,
     arrowRight: ArrowRight,
