@@ -25,7 +25,7 @@ const iconMap = {
 };
 
 export default function Action(props) {
-    const { type, label, altText, url, showIcon } = props;
+    const { type, label, altText, url, showIcon, category, setCategory } = props;
     const icon = props.icon || 'arrowLeft';
     const iconPosition = props.iconPosition || 'right';
     const IconComponent = iconMap[icon];
