@@ -47,6 +47,8 @@ export default function Action(props) {
 
     console.log(label);
 
+    let canSetCategory = false;
+
     
 
     return (
