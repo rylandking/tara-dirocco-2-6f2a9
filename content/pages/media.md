@@ -8,7 +8,7 @@ sections:
     title: Latest news
     subtitle: Latest blog posts section example
     actions:
-      - label: Learn more
+      - label: Blogs
         altText: Learn more
         url: /
         showIcon: false
