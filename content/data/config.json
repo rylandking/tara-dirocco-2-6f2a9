@@ -42,15 +42,7 @@
                 "altText": "Tara Lynn's yoga studio"
             }
         ],
-        "secondaryLinks": [
-            {
-                "type": "Button",
-                "label": "Sign up",
-                "url": "/",
-                "altText": "Sign up",
-                "style": "secondary"
-            }
-        ],
+        "secondaryLinks": [],
         "styles": {
             "self": {
                 "width": "narrow",
