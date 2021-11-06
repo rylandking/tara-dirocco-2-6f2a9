@@ -9,11 +9,6 @@ labelField: label
       - Blogs
       - Podcasts
       - Videos
-      - facebook
-      - github
-      - instagram
-      - linkedin
-      - twitter
     default: arrowLeft
   - type: enum
     name: iconPosition
