@@ -98,40 +98,6 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-  - type: FeaturedPostsSection
-    variant: variant-a
-    colors: colors-c
-    backgroundWidth: full
-    title: Blog Posts
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: center
-        margin:
-          - mt-0
-          - mb-12
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
-      actions:
-        justifyContent: center
   - type: TextSection
     colors: colors-a
     backgroundWidth: full
@@ -187,6 +153,40 @@ sections:
     subtitle: >-
       I've educated myself to help you meet your body in each present moment, so
       you can find a pathway towards living more freely and in less pain.
+  - type: FeaturedPostsSection
+    variant: variant-a
+    colors: colors-c
+    backgroundWidth: full
+    title: Blog Posts
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
+        alignItems: center
+        justifyContent: center
+      title:
+        fontWeight: '700'
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-12
+      subtitle:
+        fontWeight: '400'
+        fontStyle: normal
+        textAlign: center
+      actions:
+        justifyContent: center
   - elementId: ''
     variant: variant-a
     colors: colors-h
