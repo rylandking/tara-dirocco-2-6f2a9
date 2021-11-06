@@ -135,7 +135,7 @@ function postsVariantA(props) {
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
                                 </time>
-                                <p>{post.contentType}</p>
+                                <p>{post.category}</p>
                             </div>
                             {post.excerpt && <p data-sb-field-path="excerpt">{post.excerpt}</p>}
                         </div>
