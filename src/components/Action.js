@@ -51,7 +51,8 @@ export default function Action(props) {
 
     if (label === 'Blogs' || label === 'Podcasts' || label === 'Videos' || label === 'View all') {
         canSetCategory = true;
-    }
+    
+        
 
     return (
         <Link
