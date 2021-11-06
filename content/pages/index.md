@@ -50,7 +50,7 @@ sections:
       actions:
         justifyContent: flex-start
   - elementId: ''
-    colors: colors-f
+    colors: colors-a
     backgroundWidth: full
     title: Hello! I’m Tara Lynn.
     text: >
