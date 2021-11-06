@@ -7,11 +7,9 @@ sections:
     colors: colors-f
     backgroundWidth: full
     title: Your body is new every moment.
-    text: >-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      Tara Lynn is a yoga teacher, physical therapy student, and blogger with a
+      focus on chronic illness & pain, pelvic health, and yoga.
     actions:
       - type: Button
         label: Get Started
