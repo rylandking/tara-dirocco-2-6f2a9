@@ -155,7 +155,7 @@ sections:
       you can find a pathway towards living more freely and in less pain.
   - type: FeaturedPostsSection
     variant: variant-a
-    colors: colors-c
+    colors: colors-a
     backgroundWidth: full
     title: Blog Posts
     posts:
