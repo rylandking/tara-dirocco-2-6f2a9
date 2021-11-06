@@ -11,11 +11,6 @@ sections:
       Tara Lynn is a yoga teacher, physical therapy student, and blogger with a
       focus on chronic illness & pain, pelvic health, and yoga.
     actions: []
-    feature:
-      type: ImageBlock
-      url: /images/hero.png
-      altText: Image alt text
-      caption: Image caption
     styles:
       self:
         height: auto
