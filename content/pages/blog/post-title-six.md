@@ -11,7 +11,7 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 layout: PostLayout
-category: Videos
+category: Blogs
 ---
 ## Lorem ipsum
 
