@@ -101,10 +101,11 @@ function PostFeedVariants(props) {
 
 function postsVariantA(props) {
     const posts = props.posts || [];
+    
     if (posts.length === 0) {
         return null;
     }
-    
+
     const ImageBlock = getComponent('ImageBlock');
 
     return (
