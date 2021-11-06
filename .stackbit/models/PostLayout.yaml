@@ -7,11 +7,13 @@ fields:
     label: Title
     default: Post Title
     required: true
-  - type: reference
-    name: category
-    label: Category
-    models:
-      - MediaFilters
+  - type: enum
+    name: contentType
+    label: Content Type
+    options:
+      - Blogs
+      - Podcasts
+      - Videos
   - type: date
     name: date
     label: Date
