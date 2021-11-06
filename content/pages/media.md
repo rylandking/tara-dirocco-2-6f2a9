@@ -10,7 +10,6 @@ sections:
     actions:
       - label: Blogs
         altText: View blog posts
-        url: /
         showIcon: false
         icon: arrowLeft
         iconPosition: right
