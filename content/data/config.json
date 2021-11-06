@@ -38,7 +38,8 @@
                 "iconPosition": "right",
                 "style": "link",
                 "elementId": "",
-                "type": "Link"
+                "type": "Link",
+                "altText": "Tara Lynn's yoga studio"
             }
         ],
         "secondaryLinks": [
