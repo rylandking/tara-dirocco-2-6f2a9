@@ -3,7 +3,7 @@ name: Button
 label: Button
 labelField: label
   - type: enum
-    name: icon
+    name: contentTyle
     group: styles
     label: Icon
     options:
