@@ -1,6 +1,6 @@
 ---
 title: Post Title Six
-contentType: Blogs
+contentType: Videos
 date: '2021-11-06'
 excerpt: >-
   This is the excerpt of your blog post visible in the post feed or featured
