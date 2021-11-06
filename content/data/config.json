@@ -29,6 +29,17 @@
                 "elementId": "",
                 "type": "Link",
                 "altText": "Tara Lynn's blog posts, podcasts, and videos"
+            },
+            {
+                "label": "Learn more",
+                "altText": "Learn more",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowLeft",
+                "iconPosition": "right",
+                "style": "link",
+                "elementId": "",
+                "type": "Link"
             }
         ],
         "secondaryLinks": [
