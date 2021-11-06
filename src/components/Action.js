@@ -1,4 +1,5 @@
-import * as React from 'react';
+// import * as React from 'react';
+import React, { useContext } from 'react';
 import classNames from 'classnames';
 import Link from '@stackbit/components/dist/utils/link';
 import ArrowLeft from '@stackbit/components/dist/svgs/arrow-left';
