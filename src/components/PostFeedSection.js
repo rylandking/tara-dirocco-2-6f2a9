@@ -112,7 +112,6 @@ function postsVariantA(props) {
     }
 
     posts = posts.filter(function (post) {
-        console.log('category', category);
 
         return post.category === category;
     });
