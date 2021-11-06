@@ -49,7 +49,9 @@ export default function Action(props) {
 
     let canSetCategory = false;
 
-    
+    if (category === 'Blogs' || category === 'Podcasts' || category === 'Videos' || category === 'View all') {
+        canSetCategory = true;
+    }
 
     return (
         <Link
