@@ -21,7 +21,7 @@
             },
             {
                 "label": "Media",
-                "url": "/",
+                "url": "/media",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
