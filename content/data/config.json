@@ -7,11 +7,6 @@
         "backgroundWidth": "full",
         "title": "Tara Lynn Yoga",
         "isTitleVisible": true,
-        "logo": {
-            "type": "ImageBlock",
-            "url": "/images/logo.svg",
-            "altText": "Logo"
-        },
         "primaryLinks": [
             {
                 "type": "Link",
