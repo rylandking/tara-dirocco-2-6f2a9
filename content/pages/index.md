@@ -184,6 +184,9 @@ sections:
         textAlign: center
       text:
         textAlign: center
+    subtitle: >-
+      I've educated myself to help you meet your body in each present moment, so
+      you can find a pathway towards living more freely and in less pain.
   - elementId: ''
     variant: variant-a
     colors: colors-h
