@@ -20,6 +20,7 @@ export const GlobalProvider = ({ children }) => {
             payload: category
         })
     }
+    
 
     return (
         <GlobalContext.Provider value={{ category: state.category, setCategory }}>{children}</GlobalContext.Provider>
