@@ -1,5 +1,5 @@
 ---
-title: This is a new page
+title: Media
 sections: []
 layout: PageLayout
 ---
