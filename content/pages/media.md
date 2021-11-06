@@ -34,7 +34,7 @@ sections:
         type: Button
       - type: Button
         label: View all
-        style: primary
+        style: secondary
         altText: View all media
     showRecent: false
     recentCount: 6
