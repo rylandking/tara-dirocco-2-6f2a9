@@ -9,7 +9,7 @@ sections:
     subtitle: Latest blog posts section example
     actions:
       - label: Blogs
-        altText: Learn more
+        altText: View blog posts
         url: /
         showIcon: false
         icon: arrowLeft
