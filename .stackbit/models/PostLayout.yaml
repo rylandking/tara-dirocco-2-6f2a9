@@ -8,8 +8,8 @@ fields:
     default: Post Title
     required: true
   - type: reference
-    name: mediaFilters
-    label: Categor
+    name: category
+    label: Category
     models:
       - Person
   - type: date
