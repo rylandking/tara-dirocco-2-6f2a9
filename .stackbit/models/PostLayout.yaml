@@ -8,7 +8,7 @@ fields:
     default: Post Title
     required: true
   - type: reference
-    name: author
+    name: mediaFilters
     label: Author
     models:
       - Person
