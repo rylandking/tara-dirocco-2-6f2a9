@@ -1,5 +1,5 @@
-import * as React from 'react';
-import React 
+// import * as React from 'react';
+import React { useContext } from 'react';
 import classNames from 'classnames';
 import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components/dist/components-registry';
