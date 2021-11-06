@@ -53,11 +53,20 @@ sections:
     colors: colors-f
     backgroundWidth: full
     title: Hello! I’m Tara Lynn.
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      My love for human form, experience, and story has guided me from the dance
+      floor, to the yoga mat, and finally to a doctorate program in physical
+      therapy at Regis University in Denver, CO.
+
+
+      A dancer by training and a yogi by chance, I am fascinated by the ways in
+      which we hold stories in our bodies. Delving into the world of chronic
+      pain, I am on the path to uncovering how our beliefs, our community, and
+      our environment shape how we experience pain.
+
+
+      I am an experiential believer that we can explore our pain to uncover the
+      stories that guide us, and even ENJOY the process while we are at it!
     actions:
       - type: Button
         label: Get Started
