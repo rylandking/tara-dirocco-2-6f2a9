@@ -1,5 +1,5 @@
 type: object
-name: Button
+name: FilterButton
 label: Button
 labelField: label
 fieldGroups:
