@@ -41,7 +41,7 @@
             {
                 "label": "Connect",
                 "altText": "Connect with Tara Lynn",
-                "url": "/",
+                "url": "/connect",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
