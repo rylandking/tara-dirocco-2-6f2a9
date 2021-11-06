@@ -1,6 +1,6 @@
 type: object
 name: FilterButton
-label: Button
+label: FilterButton
 labelField: label
 fieldGroups:
   - name: styles
