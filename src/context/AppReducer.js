@@ -4,7 +4,6 @@ export default (state, action) => {
             return {
                 ...state,
                 category: action.payload
-                // category: state.id
             }
         default:
             return state;
