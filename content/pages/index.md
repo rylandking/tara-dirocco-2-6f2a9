@@ -136,13 +136,32 @@ sections:
     colors: colors-a
     backgroundWidth: full
     title: My Education
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >
+      **DOCTOR OF PHYSICAL THERAPY STUDENT: GRADUATING MAY 2021**
+
+      Continuing Education: APTA Pelvic Health Level I and PIPER Pelvic Health
+      Level I and II certifications.
+
+
+      **YOGA TEACHER TRAINING**
+
+      I've completed 200 hours of RYT training as well as 100 hours of Yoga
+      Therapeutics training.
+
+
+      Beyond that, I've completed the Soulful Teaching Module of Advanced Yoga
+      Teacher Training and Thai Yoga Body Work Certifications both at 50 hours.
+
+
+      I've also finished Biomechanics and Asana, Resistance Stretching, and The
+      Incredible SI Joint all with Jules Mitchell and the Psoas Workshop with
+      Liz Koch.
+
+
+      **UNIVERSITY**
+
+      I graduated Summa Cum Laude (GPA 3.9) from UC Berkeley with a Bachelors of
+      Science in Environmental Science.
     styles:
       self:
         height: auto
