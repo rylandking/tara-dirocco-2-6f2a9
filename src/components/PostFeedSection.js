@@ -1,4 +1,5 @@
 import * as React from 'react';
+import React 
 import classNames from 'classnames';
 import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components/dist/components-registry';
