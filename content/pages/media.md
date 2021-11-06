@@ -5,7 +5,7 @@ sections:
     variant: variant-a
     colors: colors-h
     backgroundWidth: full
-    title: Latest news
+    title: Media
     subtitle: 'Love-based, science-based resources'
     actions:
       - label: Blogs
