@@ -71,7 +71,7 @@ sections:
     feature:
       type: ImageBlock
       url: /images/tara-lynn-dirocco-side-view-600h.png
-      altText: Hero section image
+      altText: Tara Lynn of Tara Lynn Yoga
     styles:
       self:
         height: auto
