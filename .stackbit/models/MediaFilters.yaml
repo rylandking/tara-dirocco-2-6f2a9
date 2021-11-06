@@ -4,7 +4,6 @@ label: Button
 labelField: label
   - type: enum
     name: contentType
-    group: styles
     label: Icon
     options:
       - arrowLeft
