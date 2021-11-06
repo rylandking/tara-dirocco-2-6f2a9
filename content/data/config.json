@@ -63,11 +63,6 @@
     "footer": {
         "colors": "colors-a",
         "backgroundWidth": "full",
-        "logo": {
-            "type": "ImageBlock",
-            "url": "/images/logo.svg",
-            "altText": "Logo"
-        },
         "title": "Tara Lynn Yoga",
         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "contacts": {
