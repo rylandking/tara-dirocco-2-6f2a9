@@ -116,6 +116,8 @@ function postsVariantA(props) {
             return post.category === category;
         });
     }
+    console.log(posts);
+
 
     const ImageBlock = getComponent('ImageBlock');
 
