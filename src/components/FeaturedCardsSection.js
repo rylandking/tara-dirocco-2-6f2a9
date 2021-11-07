@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Link from '@stackbit/components/dist/utils/link';
-import { getComponent } from '../../components-registry';
+import { getComponent } from '@stackbit/components/dist/components-registry';
 
 export default function FeaturedCardsSection({
     annotationPrefix,
