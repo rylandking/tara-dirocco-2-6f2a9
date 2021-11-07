@@ -176,7 +176,7 @@ sections:
       url: /images/post-2.jpeg
       altText: Card Two thumbnail image
     linkTwo: /
-    titleThree: Card Three Title
+    titleThree: Videos
     excerptThree: >-
       This is the excerpt of your third feature card visible in the featured
       cards section.
