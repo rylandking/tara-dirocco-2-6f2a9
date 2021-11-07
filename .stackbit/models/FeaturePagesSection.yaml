@@ -7,10 +7,6 @@ extends:
 groups:
   - sectionComponent
 fields:
-  - name: colors
-    default: colors-h
-  - name: backgroundWidth
-    default: full
   - type: string
     name: title
     label: Title
