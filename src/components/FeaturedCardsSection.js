@@ -24,7 +24,7 @@ export default function FeaturedCardsSection({
 
     return (
         <div
-            className="w-full flex justify-center pt-6 pb-10 px-8 md:px-44 xl:px-32 bg-yellow-100"
+            className="w-full flex justify-center pt-6 pb-10 px-8 xl:px-32 bg-yellow-100"
             data-sb-field-path={annotationPrefix}
         >
             <div className="flex flex-col max-w-screen-2xl">
