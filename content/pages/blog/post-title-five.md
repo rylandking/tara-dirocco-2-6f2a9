@@ -11,7 +11,7 @@ featuredImage:
 bottomSections: []
 layout: PostLayout
 contentType: Podcasts
-category: Podcasts
+category: Podcast
 ---
 ## Lorem ipsum
 
