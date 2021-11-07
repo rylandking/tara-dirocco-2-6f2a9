@@ -1,4 +1,4 @@
-const VideoEmbed = ({ annotationPrefix, videoId, videoTitle }) => {
+const PodcastSection = ({ annotationPrefix, videoId, videoTitle }) => {
 
     return (
         <div className="w-full sm:w-11/12 lg:w-3/4 mx-auto mt-5 mb-10">
@@ -9,4 +9,4 @@ const VideoEmbed = ({ annotationPrefix, videoId, videoTitle }) => {
     )
 }
 
-export default VideoEmbed
+export default PodcastSection
