@@ -9,7 +9,7 @@ groups:
 fields:
   - type: string
     name: title
-    label: Title
+    label: Section Title
     default: Start healing
   - type: string
     name: subtitle
