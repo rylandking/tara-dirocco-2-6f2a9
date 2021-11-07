@@ -175,7 +175,7 @@ sections:
       type: ImageBlock
       url: /images/post-2.jpeg
       altText: Card Two thumbnail image
-    linkTwo: /media?mediaType=Blogs
+    linkTwo: /media?mediaType=Podcasts
     titleThree: Videos
     excerptThree: >-
       This is the excerpt of your third feature card visible in the featured
