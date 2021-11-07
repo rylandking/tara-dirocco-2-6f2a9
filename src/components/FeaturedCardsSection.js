@@ -32,7 +32,7 @@ export default function FeaturedCardsSection({
                     <h2 className="text-3xl sm:text-4xl text-center mb-3" data-sb-field-path="title">{title}</h2>
                     <p className="text-lg sm:text-xl text-center" data-sb-field-path=".subtitle">{subtitle}</p>
                 </div>
-                <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
+                <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
                     {/* Feature Card One */}
                     <article className="sb-card">
                         <Link href={linkOne} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageOne">
