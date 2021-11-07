@@ -9,7 +9,7 @@ registerComponents({
     PostFeedSection: dynamic(() => import('./PostFeedSection.js')),
     PostLayout: dynamic(() => import('./PostLayout.js')),
     VideoEmbed: dynamic(() => import('./VideoEmbed.js')),
-    FeaturedPagesSection: dynamic(() => import('./FeaturePagesSection.js'))
+    FeaturedPagesSection: dynamic(() => import('./FeaturedPagesSection.js'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
