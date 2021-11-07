@@ -22,7 +22,7 @@ fields:
   - type: string
     name: linkOne
     label: Card One - Link
-    default: Card One Link    
+    default: /    
   - type: string
     name: excerptOne
     label: Card One - Excerpt
