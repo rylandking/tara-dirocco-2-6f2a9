@@ -38,7 +38,7 @@ fields:
       altText: Post thumbnail image
   - type: list
     name: topSections
-    label: Sections
+    label: Top Sections
     items:
       type: model
       groups:
