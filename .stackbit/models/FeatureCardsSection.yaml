@@ -19,7 +19,10 @@ fields:
     name: titleOne
     label: Card One - Title
     default: Card One Title
-    
+  - type: string
+    name: titleOne
+    label: Card One - Title
+    default: Card One Title    
   - type: string
     name: excerptOne
     label: Card One - Excerpt
