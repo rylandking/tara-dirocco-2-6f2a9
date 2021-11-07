@@ -12,6 +12,7 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                     <h2 className="text-3xl sm:text-4xl text-center">{title}</h2>
                     <p className="text-lg sm:text-xl text-center">{subtitle}</p>                    
                 </div>
+                {/* Feature Card One */}
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
                     <article className="sb-card">
                             <Link href={getPageUrlPath(post)} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImage">
