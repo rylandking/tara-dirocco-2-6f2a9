@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-export default function FeaturedCardsSection({ 
-    annotationPrefix, 
-    title, 
+export default function FeaturedCardsSection({
+    annotationPrefix,
+    title,
     subtitle,
     titleOne,
     excerptOne,
     featuredImageOne,
-    linkOne 
+    linkOne
 }) {
 
     return (
@@ -18,15 +18,15 @@ export default function FeaturedCardsSection({
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
                     <h2 className="text-3xl sm:text-4xl text-center" data-sb-field-path="title">{title}</h2>
-                    <p className="text-lg sm:text-xl text-center" data-sb-field-path="subtitle">{subtitle}</p>                    
+                    <p className="text-lg sm:text-xl text-center" data-sb-field-path="subtitle">{subtitle}</p>
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
                     {/* Feature Card One */}
                     <article className="sb-card">
-                            <Link href={linkOne} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageOne">
-                                <ImageBlock {...featuredImageOne} className="absolute left-0 top-0 h-full w-full object-cover" />
-                                {/* <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" /> */}
-                            </Link>
+                        <Link href={linkOne} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageOne">
+                            <ImageBlock {...featuredImageOne} className="absolute left-0 top-0 h-full w-full object-cover" />
+                            {/* <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" /> */}
+                        </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10">
                             <h2 className="text-xl sm:text-2xl mb-1">
                                 <Link href={linkOne} data-sb-field-path="titleOne">
