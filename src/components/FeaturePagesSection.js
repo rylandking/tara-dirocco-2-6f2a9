@@ -88,18 +88,18 @@ function featuredPostsActions(props) {
     );
 }
 
-function featuredPostsVariants(props) {
-    const variant = props.variant || 'variant-a';
-    switch (variant) {
-        case 'variant-a':
-            return postsVariantA(props);
-        case 'variant-b':
-            return postsVariantB(props);
-        case 'variant-c':
-            return postsVariantC(props);
-    }
-    return null;
-}
+// function featuredPostsVariants(props) {
+//     const variant = props.variant || 'variant-a';
+//     switch (variant) {
+//         case 'variant-a':
+//             return postsVariantA(props);
+//         case 'variant-b':
+//             return postsVariantB(props);
+//         case 'variant-c':
+//             return postsVariantC(props);
+//     }
+//     return null;
+// }
 
 function postsVariantA(props) {
     const posts = props.posts || [];
