@@ -2,7 +2,7 @@
 title: Connect
 sections:
   - elementId: contact-form
-    colors: colors-b
+    colors: colors-e
     backgroundWidth: full
     title: I'd love to hear from you
     text: >
