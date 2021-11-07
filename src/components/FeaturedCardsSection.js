@@ -67,7 +67,7 @@ export default function FeaturedCardsSection({
                     <article className="sb-card">
                         <div href={linkThree} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageThree">
                             <ImageBlock {...featuredImageThree} className="absolute left-0 top-0 h-full w-full object-cover" />
-                        </Link>
+                        </div>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                             <h2 className="text-xl sm:text-2xl mb-1">
                                 <Link href={linkThree} data-sb-field-path=".titleThree">
