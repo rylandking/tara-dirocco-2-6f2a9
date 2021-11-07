@@ -89,14 +89,6 @@ export default function FeaturedPagesSection({ }) {
                                         <p className="mt-3 text-base text-gray-500">{post.description}</p>
                                     </a>
                                 </div>
-                                <div className="mt-6 flex items-center">
-                                    <div className="flex-shrink-0">
-                                        <a href={post.author.href}>
-                                            <span className="sr-only">{post.author.name}</span>
-                                            <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     ))}
