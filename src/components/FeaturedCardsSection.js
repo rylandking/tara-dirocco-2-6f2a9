@@ -1,7 +1,8 @@
 import * as React from 'react';
 
 export default function FeaturedCardsSection({ 
-    annotationPrefix, title, subtitle }) {
+    annotationPrefix, title, subtitle 
+}) {
 
     return (
         <div
