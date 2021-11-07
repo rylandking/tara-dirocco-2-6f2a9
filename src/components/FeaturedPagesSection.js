@@ -125,7 +125,6 @@ function postsVariantA(props) {
     return (
         <div className="grid gap-6 md:grid-cols-3 lg:gap-8" data-sb-field-path=".posts">
             {posts.map((post, index) => {
-                const dateTimeAttr = dayjs(post.date).format('YYYY-MM-DD HH:mm:ss');
                 const formattedDate = dayjs(post.date).format('MMMM D, YYYY');
                 return (
                     <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
