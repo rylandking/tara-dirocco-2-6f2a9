@@ -4,17 +4,7 @@ export default function FeaturedPagesSection(props) {
 
     return (
         <div
-            id={props.elementId}
-            className={classNames(
-                'sb-component',
-                'sb-component-section',
-                backgroundWidth === 'inset' ? 'sb-component-section-inset' : null,
-                'sb-component-featured-posts-section',
-                colors,
-                'px-4',
-                'sm:px-8',
-                sectionStyles.margin
-            )}
+            className=""
             data-sb-field-path={props.annotationPrefix}
         >
            <p>123</p>
