@@ -24,11 +24,11 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                                     {post.title}
                                 </Link>
                             </h3>
-                                    <h2 className="text-xl sm:text-2xl mb-1">
-                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                            {post.title}
-                                        </Link>
-                                    </h2>
+                            <h2 className="text-xl sm:text-2xl mb-1">
+                                <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                    {post.title}
+                                </Link>
+                            </h2>
                             <p data-sb-field-path="excerpt">{post.excerpt}</p>
                         </div>
                     </article>
