@@ -10,6 +10,14 @@ export default function FeaturedCardsSection({
     excerptOne,
     featuredImageOne,
     linkOne,
+    titleOne,
+    excerptOne,
+    featuredImageOne,
+    linkOne,
+    titleOne,
+    excerptOne,
+    featuredImageOne,
+    linkOne,
 }) {
 
     const ImageBlock = getComponent('ImageBlock');
