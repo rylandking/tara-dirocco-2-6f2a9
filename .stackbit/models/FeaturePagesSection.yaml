@@ -7,18 +7,6 @@ extends:
 groups:
   - sectionComponent
 fields:
-  # - type: enum
-  #   name: variant
-  #   group: styles
-  #   label: Arrangement
-  #   options:
-  #     - label: Three columns grid
-  #       value: variant-a
-  #     - label: Three column mixed grid
-  #       value: variant-b
-  #     - label: Two column mixed grid
-  #       value: variant-c
-  #   default: variant-a
   - name: colors
     default: colors-h
   - name: backgroundWidth
