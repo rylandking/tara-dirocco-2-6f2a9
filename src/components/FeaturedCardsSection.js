@@ -12,6 +12,8 @@ export default function FeaturedCardsSection({
     linkOne
 }) {
 
+    const ImageBlock = getComponent('ImageBlock');
+
     return (
         <div
             className="w-full flex justify-center pt-6 pb-10"
