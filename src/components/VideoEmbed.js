@@ -1,5 +1,5 @@
 const VideoEmbed = () => {
-  return <p>Hello! I am a callout.</p>
+  return <p>I'm a video embed.</p>
 }
 
-export default Callout
+export default VideoEmbed
