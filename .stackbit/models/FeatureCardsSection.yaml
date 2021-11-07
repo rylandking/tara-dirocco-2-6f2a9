@@ -15,10 +15,11 @@ fields:
     name: subtitle
     label: Subtitle
     default: These are the featured pages I want to link to
-  - type: list
-    name: featureCards
-    label: Cards
-    items:
-      type: reference
-      models:
-        - FeatureCardLayout
+  
+  # - type: list
+  #   name: featureCards
+  #   label: Cards
+  #   items:
+  #     type: reference
+  #     models:
+  #       - FeatureCardLayout
