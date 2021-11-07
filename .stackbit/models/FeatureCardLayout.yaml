@@ -1,6 +1,6 @@
-name: FeaturePageLayout
-label: Feature Page
-layout: FeaturePageLayout
+name: FeatureCardLayout
+label: Feature Card
+layout: FeatureCardLayout
 fields:
   - type: string
     name: title
