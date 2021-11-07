@@ -5,7 +5,7 @@ groups:
   - sectionComponent
 fields:
   - type: string
-    name: videoUrl
+    name: videoId
     label: Video Link
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
   - type: string
