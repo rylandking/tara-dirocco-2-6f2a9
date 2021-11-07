@@ -43,7 +43,7 @@ export default function PostFeedSection(props) {
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     {PostFeedHeader(props)}
-                    <div className="mb-8">
+                    <div className="mb-6">
                         {PostFeedActions(props)}
                     </div>
                     {PostFeedVariants(props)}
