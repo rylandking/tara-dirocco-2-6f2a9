@@ -66,7 +66,7 @@ export default function FeaturedPagesSection({ title, subtitle }) {
             </div>
             <div className="relative max-w-7xl mx-auto">
                 <div className="text-center">
-                    <h2 className="text-2xl tracking-tight font-bold text-gray-900 sm:text-4xl">Start healing</h2>
+                    <h2 className="tracking-tight font-bold text-gray-900 sm:text-4xl">Start healing</h2>
                     <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
                     </p>
