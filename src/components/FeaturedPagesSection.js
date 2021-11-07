@@ -49,7 +49,7 @@ function pagesVariantA(props) {
 
     return (
         <div className="grid gap-6 md:grid-cols-3 lg:gap-8" data-sb-field-path=".posts">
-            {posts.map((post, index) => {
+            {pages.map((post, index) => {
                 return (
                     <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
                         {post.featuredImage && (
