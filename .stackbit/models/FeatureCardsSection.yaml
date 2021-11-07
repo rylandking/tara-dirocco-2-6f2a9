@@ -17,7 +17,7 @@ fields:
     default: These are the featured pages I want to link to
   - type: string
     name: titleOne
-    label: Card One Title
+    label: Card One - Title
     default: Card One Title
   - type: string
     name: excerpt
