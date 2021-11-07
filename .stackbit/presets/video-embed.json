@@ -3,8 +3,6 @@
     "presets": [{
             "label": "Video Embed",
             "thumbnail": "images/video-embed-preset.png",
-            "data": {
-                
-            }
+            "data": {}
     }]
 }
