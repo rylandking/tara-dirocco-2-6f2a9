@@ -6,7 +6,7 @@ export default function FeaturedPagesSection({annotationPrefix, title, subtitle}
         <div
             id={props.elementId}
             className=""
-            data-sb-field-path={props.annotationPrefix}
+            data-sb-field-path={annotationPrefix}
         >
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
