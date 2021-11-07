@@ -13,7 +13,7 @@ fields:
     default: Start healing
   - type: string
     name: subtitle
-    label: Subtitle
+    label: Section Subtitle
     default: These are the featured pages I want to link to
   - type: string
     name: titleOne
