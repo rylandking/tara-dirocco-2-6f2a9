@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function FeaturedPagesSection({ annotationPrefix, title, subtitle }) {
+export default function FeaturedCardsSection({ annotationPrefix, title, subtitle }) {
 
     return (
         <div
@@ -11,23 +11,23 @@ export default function FeaturedPagesSection({ annotationPrefix, title, subtitle
                 <div className="w-full">
                     <h2 className="text-3xl sm:text-4xl text-center">{title}</h2>
                     <p className="text-lg sm:text-xl text-center">{subtitle}</p>
-                    {/* {featuredPages(props)} */}
+                    {/* {featuredCards(props)} */}
                 </div>
             </div>
         </div>
     );
 }
 
-function featuredPages(props) {
-    const featuredPages = props.featuredPages || [];
-    if (featuredPages.length === 0) {
+function featuredCards(props) {
+    const featuredCards = props.featuredCards || [];
+    if (featuredCards.length === 0) {
         return null;
     }
     const ImageBlock = getComponent('ImageBlock');
 
     return (
         <div className="grid gap-6 md:grid-cols-3 lg:gap-8" data-sb-field-path=".posts">
-            {featuredPages.map((post, index) => {
+            {featuredCards.map((post, index) => {
                 return (
                     <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
                         {post.featuredImage && (
