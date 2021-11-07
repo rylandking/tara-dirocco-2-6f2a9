@@ -1,0 +1,17 @@
+type: object
+name: FeaturedPagesSection
+label: Featured pages section
+labelField: title
+extends:
+  - Section
+groups:
+  - sectionComponent
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: Start healing
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: These are the featured pages I want to link to
