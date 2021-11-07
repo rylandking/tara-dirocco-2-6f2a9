@@ -113,6 +113,7 @@ topSections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+author: content/data/team/desmond-eagle.json
 ---
 ## Lorem ipsum
 
