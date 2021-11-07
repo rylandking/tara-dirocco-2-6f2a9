@@ -148,11 +148,6 @@ function postsVariantA(props) {
                                         </Link>
                                     </h2>
                                 )}
-                            <div className="text-sm mb-3">
-                                <time dateTime={dateTimeAttr} data-sb-field-path="date">
-                                    {formattedDate}
-                                </time>
-                            </div>
                             {post.excerpt && <p data-sb-field-path="excerpt">{post.excerpt}</p>}
                         </div>
                     </article>
