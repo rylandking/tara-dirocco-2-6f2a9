@@ -45,7 +45,6 @@ export default function Action(props) {
 
     let { category, setCategory } = useContext(GlobalContext);
 
-    console.log(category);
     let labelState = 'View all'
     let canSetCategory = false;
 
