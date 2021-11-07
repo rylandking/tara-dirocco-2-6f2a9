@@ -96,9 +96,6 @@ export default function FeaturedPagesSection({ }) {
                                             <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
                                         </a>
                                     </div>
-                                    <div className="ml-3">
-                                        
-                                    </div>
                                 </div>
                             </div>
                         </div>
