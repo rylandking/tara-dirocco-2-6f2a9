@@ -37,7 +37,7 @@ fields:
       url: /images/post-1.jpeg
       altText: Post thumbnail image
   - type: list
-    name: bottomSections
+    name: topSections
     label: Sections
     items:
       type: model
