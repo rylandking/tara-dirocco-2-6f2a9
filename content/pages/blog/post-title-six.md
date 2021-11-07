@@ -12,6 +12,7 @@ featuredImage:
 bottomSections: []
 layout: PostLayout
 category: Video
+author: content/data/team/desmond-eagle.json
 ---
 ## Lorem ipsum
 
