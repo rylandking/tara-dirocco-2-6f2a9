@@ -34,6 +34,7 @@ export default function FeaturedCardsSection({
                 </div>
                 <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
                     {/* Feature Card One */}
+                    <Link href={linkOne}>
                     <article className="sb-card">
                         <Link href={linkOne} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageOne">
                             <ImageBlock {...featuredImageOne} className="absolute left-0 top-0 h-full w-full object-cover" />
