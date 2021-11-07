@@ -4,6 +4,7 @@ export default function FeaturedCardsSection({
     annotationPrefix, 
     title, 
     subtitle,
+    titleOne,
      
 }) {
 
