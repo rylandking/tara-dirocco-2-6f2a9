@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function FeaturedPagesSection({annotationPrefix, title, subtitle}) {
+export default function FeaturedPagesSection({ annotationPrefix, title, subtitle }) {
 
     return (
         <div
@@ -11,7 +11,7 @@ export default function FeaturedPagesSection({annotationPrefix, title, subtitle}
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
                     <h2 className="text-3xl sm:text-4xl">{title}</h2>
-                    <p className="text-lg sm:text-xl">{props.subtitle}</p>
+                    <p className="text-lg sm:text-xl">{subtitle}</p>
                     {featuredPages(props)}
                     {/* {featuredPostsActions(props)} */}
                 </div>
