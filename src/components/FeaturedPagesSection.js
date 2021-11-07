@@ -64,7 +64,7 @@ export default function FeaturedPagesSection(props) {
             id={props.elementId}
             className=
                 "sb-component
-                'sb-component-section',
+                sb-component-section',
                 backgroundWidth === 'inset' ? 'sb-component-section-inset' : null,
                 'sb-component-featured-posts-section',
                 colors,
