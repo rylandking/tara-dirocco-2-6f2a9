@@ -1,5 +1,5 @@
 {
-    "model": "TextSection",
+    "model": "VideoEmbed",
     "presets": [{
             "label": "Dark",
             "thumbnail": "images/text-section-dark.png",
