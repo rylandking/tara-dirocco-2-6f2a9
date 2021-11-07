@@ -27,7 +27,7 @@ sections:
           isRequired: true
           width: 1/2
         - name: Message
-          label: Hey Tara...
+          label: Message
           placeholder: Please describe
           isRequired: false
           width: full
