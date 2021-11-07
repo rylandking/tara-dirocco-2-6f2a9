@@ -12,7 +12,9 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                     <h2 className="text-3xl sm:text-4xl text-center">{title}</h2>
                     <p className="text-lg sm:text-xl text-center">{subtitle}</p>                    
                 </div>
-                
+                <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
+                    
+                </div>
             </div>
         </div>
     );
