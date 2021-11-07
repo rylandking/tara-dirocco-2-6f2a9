@@ -32,7 +32,7 @@ export default function FeaturedCardsSection({
                                     {post.title}
                                 </Link>
                             </h2>
-                            <p data-sb-field-path="excerpt">{post.excerpt}</p>
+                            <p data-sb-field-path="excerpt">{excerptOne}</p>
                         </div>
                     </article>
                 </div>
