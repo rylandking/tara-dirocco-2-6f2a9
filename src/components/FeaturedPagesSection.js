@@ -117,8 +117,8 @@ function featuredPostsHeader(props) {
 // }
 
 function pagesVariantA(props) {
-    const pages = props.posts || [];
-    if (posts.length === 0) {
+    const pages = props.pages || [];
+    if (pages.length === 0) {
         return null;
     }
     const ImageBlock = getComponent('ImageBlock');
