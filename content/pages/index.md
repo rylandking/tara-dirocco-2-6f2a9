@@ -187,21 +187,4 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - colors: colors-a
-    backgroundWidth: full
-    elementId: ''
-    title: Start healing
-    subtitle: These are the featured pages I want to link to
-    type: FeaturedPagesSection
-    titleOne: Blogs
-    excerptOne: Check out my blog posts to learn how to heal.
-    featuredImageOne:
-      altText: Blog
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-      url: /images/post-1.jpeg
-    linkOne: /
 ---
