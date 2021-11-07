@@ -39,7 +39,7 @@ export default function FeaturedCardsSection({
                             <ImageBlock {...featuredImageOne} className="absolute left-0 top-0 h-full w-full object-cover" />
                             {/* <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" /> */}
                         </Link>
-                        <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100 bg-gray-100">
+                        <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                             <h2 className="text-xl sm:text-2xl mb-1">
                                 <Link href={linkOne} data-sb-field-path="titleOne">
                                     {titleOne}
