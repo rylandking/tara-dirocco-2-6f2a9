@@ -1,4 +1,4 @@
-name: PostLayout
+name: FeaturePageLayout
 label: Post
 layout: PostLayout
 fields:
