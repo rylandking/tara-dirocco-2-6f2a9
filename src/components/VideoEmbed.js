@@ -1,5 +1,4 @@
 const VideoEmbed = ({ annotationPrefix, videoId, videoTitle }) => {
-    console.log(videoUrl);
 
     return (
         <div className="flex justify-center my-5" data-sb-field-path={annotationPrefix}>
