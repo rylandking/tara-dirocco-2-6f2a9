@@ -23,10 +23,6 @@ fields:
     name: excerptOne
     label: Card One - Excerpt
     default: This is the excerpt of your first feature card visible in the featured cards section.
-  - type: string
-    name: linkOne
-    label: Card One - Link
-    default: /
   - type: model
     name: featuredImageOne
     label: Card One - Featured Image
