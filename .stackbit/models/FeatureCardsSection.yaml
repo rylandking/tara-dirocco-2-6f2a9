@@ -33,6 +33,10 @@ fields:
       url: /images/post-1.jpeg
       altText: Card one thumbnail image
   - type: string
+    name: linkOne
+    label: Card One - Link
+    default: /
+  - type: string
     name: titleTwo
     label: Card Two - Title
     default: Card Two Title
