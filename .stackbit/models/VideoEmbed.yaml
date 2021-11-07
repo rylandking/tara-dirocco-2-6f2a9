@@ -1,6 +1,6 @@
 name: VideoEmbed
 label: VideoEmbed
-labelField: title
+labelField: videoTitle
 groups:
   - sectionComponent
 fields:
