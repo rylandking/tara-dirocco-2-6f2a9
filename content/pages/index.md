@@ -195,4 +195,12 @@ sections:
     type: FeaturedPagesSection
     titleOne: Blogs
     excerptOne: Check out my blog posts to learn how to heal.
+    featuredImageOne:
+      altText: lorem-ipsum
+      caption: lorem-ipsum
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
 ---
