@@ -40,7 +40,7 @@ export default function FeaturedPagesSection(props) {
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     {featuredPostsHeader(props)}
-                    {postsVariantA(props)}
+                    {pagesVariantA(props)}
                     {featuredPostsActions(props)}
                 </div>
             </div>
