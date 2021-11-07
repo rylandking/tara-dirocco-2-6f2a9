@@ -29,7 +29,7 @@ export default function FeaturedCardsSection({
                             </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10">
                             <h2 className="text-xl sm:text-2xl mb-1">
-                                <Link href={linkOne} data-sb-field-path="title">
+                                <Link href={linkOne} data-sb-field-path="titleOne">
                                     {titleOne}
                                 </Link>
                             </h2>
