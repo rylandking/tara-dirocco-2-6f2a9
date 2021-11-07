@@ -25,7 +25,7 @@
     "primary": "#28aaff",
     "secondary": "#dfe3e7",
     "neutral": "#282f36",
-    "complementary": "#caedd5",
+    "complementary": "#F5F3FF",
     "complementaryAlt": "#fffde2",
     "buttonPrimary": {
         "radius": 0,
