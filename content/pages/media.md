@@ -6,7 +6,7 @@ sections:
     colors: colors-h
     backgroundWidth: full
     title: Media
-    subtitle: 'Love-based, science-based resources'
+    subtitle: 'A library of love-based, science-based resources'
     actions:
       - label: Blogs
         altText: View blog posts
