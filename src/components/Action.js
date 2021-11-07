@@ -51,7 +51,7 @@ export default function Action(props) {
 
     if (label === 'Blogs' || label === 'Podcasts' || label === 'Videos' || label === 'View all') {
         canSetCategory = true;
-        
+        labe
         if (label === 'Blogs' || label === 'Podcasts' || label === 'Videos') {
             labelState = label.slice(0, -1);
         }
