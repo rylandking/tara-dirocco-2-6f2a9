@@ -11,9 +11,9 @@ fields:
     name: category
     label: Content Type
     options:
-      - Blogs
-      - Podcasts
-      - Videos
+      - Blog
+      - Podcast
+      - Video
   - type: date
     name: date
     label: Date
