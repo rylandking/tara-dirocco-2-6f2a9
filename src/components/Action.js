@@ -46,12 +46,12 @@ export default function Action(props) {
     let { category, setCategory } = useContext(GlobalContext);
 
     console.log(category);
-
+    let label
     let canSetCategory = false;
 
     if (label === 'Blogs' || label === 'Podcasts' || label === 'Videos' || label === 'View all') {
         canSetCategory = true;
-        
+
         labelState = label.slice(0, -1);
     }
 
