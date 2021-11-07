@@ -62,7 +62,7 @@ export default function FeaturedPagesSection(props) {
     return (
         <div
             id={props.elementId}
-            className={classNames(
+            className=
                 'sb-component',
                 'sb-component-section',
                 backgroundWidth === 'inset' ? 'sb-component-section-inset' : null,
