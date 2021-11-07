@@ -157,7 +157,7 @@ sections:
     backgroundWidth: full
     elementId: ''
     title: Start healing
-    subtitle: These are the featured pages I want to link to
+    subtitle: 'a forum of articles, podcasts, and yoga classes created to help us heal.'
     titleOne: Blogs
     excerptOne: >-
       This is the excerpt of your first feature card visible in the featured
