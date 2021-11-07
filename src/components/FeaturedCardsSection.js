@@ -13,7 +13,29 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                     <p className="text-lg sm:text-xl text-center">{subtitle}</p>                    
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
-                    
+                    <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
+                        {post.featuredImage && (
+                            <Link href={getPageUrlPath(post)} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImage">
+                                <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" />
+                            </Link>
+                        )}
+                        <div className="px-4 py-6 sm:px-6 sm:pb-10">
+                            {props.title ? (
+                                <h3 className="text-xl sm:text-2xl mb-1">
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                        {post.title}
+                                    </Link>
+                                </h3>
+                            ) : (
+                                    <h2 className="text-xl sm:text-2xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
+                            {post.excerpt && <p data-sb-field-path="excerpt">{post.excerpt}</p>}
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
