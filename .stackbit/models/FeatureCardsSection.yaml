@@ -45,8 +45,8 @@ fields:
     label: Card Two - Excerpt
     default: This is the excerpt of your second feature card visible in the featured cards section.
   - type: string
-    name: linkOne
-    label: Card One - Link
+    name: linkTwo
+    label: Card Two - Link
     default: /  
   - type: model
     name: featuredImageTwo
