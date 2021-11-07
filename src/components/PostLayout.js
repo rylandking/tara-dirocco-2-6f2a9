@@ -42,7 +42,7 @@ export default function PostLayout(props) {
                                     if (!Component) {
                                         throw new Error(`no component matching the page section's type: ${section.type}`);
                                     }
-                                    return <Component key={index} {...section} annotationPrefix={`bottomSections.${index}`} />;
+                                    return <Component key={index} {...section} annotationPrefix={`topSections.${index}`} />;
                                 })}
                             </div>
                         )}
