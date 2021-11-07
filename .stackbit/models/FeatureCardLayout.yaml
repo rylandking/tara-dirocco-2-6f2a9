@@ -19,7 +19,7 @@ fields:
     default:
       type: ImageBlock
       url: /images/post-1.jpeg
-      altText: Post thumbnail image
+      altText: Card thumbnail image
   - type: list
     name: bottomSections
     label: Sections
