@@ -1,6 +1,6 @@
 type: object
-name: FeaturedPagesSection
-label: Featured pages section
+name: FeaturedCardsSection
+label: Featured cards section
 labelField: title
 extends:
   - Section
