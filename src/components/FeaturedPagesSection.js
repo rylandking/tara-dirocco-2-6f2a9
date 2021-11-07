@@ -40,7 +40,7 @@ function featuredPostsHeader(props) {
     );
 }
 
-function pagesVariantA(props) {
+function featuredPages(props) {
     const pages = props.pages || [];
     if (pages.length === 0) {
         return null;
