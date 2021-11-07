@@ -63,6 +63,7 @@ export default function FeaturedCardsSection({
                             <p data-sb-field-path=".excerptTwo">{excerptTwo}</p>
                         </div>
                     </article>
+                    </Link>
                     {/* Feature Card Three */}
                     <article className="sb-card">
                         <Link href={linkThree} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImageThree">
