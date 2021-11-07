@@ -196,7 +196,7 @@ sections:
     titleOne: Blogs
     excerptOne: Check out my blog posts to learn how to heal.
     featuredImageOne:
-      altText: lorem-ipsum
+      altText: Blog
       caption: lorem-ipsum
       elementId: ''
       styles:
