@@ -167,7 +167,7 @@ sections:
       url: /images/post-1.jpeg
       altText: Card one thumbnail image
     linkOne: /
-    titleTwo: Card Two Title
+    titleTwo: Podcasts
     excerptTwo: >-
       This is the excerpt of your second feature card visible in the featured
       cards section.
