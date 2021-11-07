@@ -74,6 +74,10 @@ fields:
       type: ImageBlock
       url: /images/post-2.jpeg
       altText: Card Three thumbnail image
+  - type: string
+    name: linkThree
+    label: Card Three - Link
+    default: /  
   # - type: list
   #   name: featureCards
   #   label: Cards
