@@ -3,23 +3,6 @@
     "presets": [{
             "label": "Video Embed",
             "thumbnail": "images/video-embed-section.png",
-            "data": {
-                "colors": "colors-c"
-            }
-        },
-        {
-            "label": "Light",
-            "thumbnail": "images/text-section-light.png",
-            "data": {
-                "colors": "colors-a"
-            }
-        },
-        {
-            "label": "Complementary",
-            "thumbnail": "images/text-section-complimentary.png",
-            "data": {
-                "colors": "colors-h"
-            }
-        }
+    }
     ]
 }
