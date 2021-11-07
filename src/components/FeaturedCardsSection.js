@@ -77,6 +77,7 @@ export default function FeaturedCardsSection({
                             <p data-sb-field-path=".excerptThree">{excerptThree}</p>
                         </div>
                     </article>
+                    </Link>
                 </div>
             </div>
         </div>
