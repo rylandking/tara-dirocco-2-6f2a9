@@ -43,7 +43,7 @@ export default function Action(props) {
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
 
-    const { category, setCategory } = useContext(GlobalContext);
+    let { category, setCategory } = useContext(GlobalContext);
 
     console.log(category);
 
