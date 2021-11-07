@@ -28,7 +28,7 @@ export default function FeaturedCardsSection({
             data-sb-field-path={annotationPrefix}
         >
             <div className="flex flex-col max-w-screen-2xl">
-                <div className="w-full pb-6">
+                <div className="w-full pb-10">
                     <h2 className="text-3xl sm:text-4xl text-center" data-sb-field-path="title">{title}</h2>
                     <p className="text-lg sm:text-xl text-center" data-sb-field-path="subtitle">{subtitle}</p>
                 </div>
