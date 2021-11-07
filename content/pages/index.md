@@ -184,6 +184,6 @@ sections:
       type: ImageBlock
       url: /images/post-2.jpeg
       altText: Card Three thumbnail image
-    linkThree: /
+    linkThree: /media?mediaType=Videos
     type: FeaturedCardsSection
 ---
