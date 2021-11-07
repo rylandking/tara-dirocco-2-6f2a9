@@ -166,7 +166,7 @@ sections:
       type: ImageBlock
       url: /images/post-1.jpeg
       altText: Card one thumbnail image
-    linkOne: /media?mediaType
+    linkOne: /media?ype
     titleTwo: Podcasts
     excerptTwo: >-
       This is the excerpt of your second feature card visible in the featured
