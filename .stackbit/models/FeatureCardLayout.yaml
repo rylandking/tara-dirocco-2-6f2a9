@@ -7,11 +7,6 @@ fields:
     label: Title
     default: Post Title
     required: true
-  - type: reference
-    name: author
-    label: Author
-    models:
-      - Person
   - type: string
     name: excerpt
     label: Excerpt
