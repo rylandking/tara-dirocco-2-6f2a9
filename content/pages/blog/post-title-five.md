@@ -51,6 +51,9 @@ bottomSections:
       actions:
         justifyContent: flex-start
     type: CtaSection
+  - videoUrl: 'https://www.youtube-nocookie.com/embed/4XgfhvTDEy4'
+    videoTitle: Tara Lynn Yoga
+    type: VideoEmbed
 layout: PostLayout
 contentType: Podcasts
 category: Podcast
