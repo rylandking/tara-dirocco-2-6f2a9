@@ -36,7 +36,7 @@ export default function PostLayout(props) {
                                 <ImageBlock {...page.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" />
                             </figure>
                         )}
-                        {sections.length > 0 && (
+                        {topSections.length > 0 && (
                             <div data-sb-field-path="topSections">
                                 {sections.map((section, index) => {
                                     const Component = getComponent(section.type);
