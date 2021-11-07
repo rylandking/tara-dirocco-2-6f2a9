@@ -81,7 +81,7 @@ function PostFeedActions(props) {
     const Action = getComponent('Action');
     return (
         <div
-            className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', 'mb-8', styles.actions ? mapStyles(styles.actions) : null)}
+            className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', styles.actions ? mapStyles(styles.actions) : null)}
             data-sb-field-path=".actions"
         >
             {props.actions.map((action, index) => (
