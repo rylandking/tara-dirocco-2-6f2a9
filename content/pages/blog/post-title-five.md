@@ -9,6 +9,8 @@ featuredImage:
   url: /images/post-1.jpeg
   altText: Post thumbnail image
 bottomSections:
+  - videoUrl: 'https://www.youtube.com/watch?v=4XgfhvTDEy4'
+    type: VideoEmbed
   - elementId: ''
     colors: colors-c
     backgroundWidth: full
