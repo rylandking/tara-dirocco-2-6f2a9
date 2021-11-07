@@ -153,6 +153,39 @@ sections:
     subtitle: >-
       I've educated myself to help you meet your body in each present moment, so
       you can find a pathway towards living more freely and in less pain.
+  - colors: colors-a
+    backgroundWidth: full
+    elementId: ''
+    title: Start healing
+    subtitle: These are the featured pages I want to link to
+    titleOne: Card One Title
+    excerptOne: >-
+      This is the excerpt of your first feature card visible in the featured
+      cards section.
+    featuredImageOne:
+      type: ImageBlock
+      url: /images/post-1.jpeg
+      altText: Card one thumbnail image
+    linkOne: /
+    titleTwo: Card Two Title
+    excerptTwo: >-
+      This is the excerpt of your second feature card visible in the featured
+      cards section.
+    featuredImageTwo:
+      type: ImageBlock
+      url: /images/post-2.jpeg
+      altText: Card Two thumbnail image
+    linkTwo: /
+    titleThree: Card Three Title
+    excerptThree: >-
+      This is the excerpt of your third feature card visible in the featured
+      cards section.
+    featuredImageThree:
+      type: ImageBlock
+      url: /images/post-2.jpeg
+      altText: Card Three thumbnail image
+    linkThree: /
+    type: FeaturedCardsSection
   - type: FeaturedPostsSection
     variant: variant-a
     colors: colors-a
