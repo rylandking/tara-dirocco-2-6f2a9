@@ -53,7 +53,7 @@ export default function Action(props) {
         canSetCategory = true;
 
          
-        labelState = = text.slice(0, -1);
+        labelState = label.slice(0, -1);
     }
 
     return (
