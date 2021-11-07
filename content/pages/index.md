@@ -203,4 +203,5 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
+      url: /images/post-1.jpeg
 ---
