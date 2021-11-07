@@ -1,6 +1,6 @@
 name: FeaturePageLayout
 label: Post
-layout: PostLayout
+layout: FeaturePageLayout
 fields:
   - type: string
     name: title
