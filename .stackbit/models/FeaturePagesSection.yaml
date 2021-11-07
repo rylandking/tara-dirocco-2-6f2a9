@@ -1,0 +1,38 @@
+type: object
+name: FeaturedPostsSection
+label: Featured posts section
+labelField: title
+extends:
+  - Section
+groups:
+  - sectionComponent
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - type: enum
+    name: variant
+    group: styles
+    label: Arrangement
+    options:
+      - label: Three columns grid
+        value: variant-a
+      - label: Three column mixed grid
+        value: variant-b
+      - label: Two column mixed grid
+        value: variant-c
+    default: variant-a
+  - name: colors
+    default: colors-h
+  - name: backgroundWidth
+    default: full
+  - type: string
+    name: title
+    label: Title
+    default: Featured
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: Featured blog posts section example
