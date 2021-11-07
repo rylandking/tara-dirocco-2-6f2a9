@@ -193,4 +193,5 @@ sections:
     title: Start healing
     subtitle: These are the featured pages I want to link to
     type: FeaturedPagesSection
+    titleOne: Blogs
 ---
