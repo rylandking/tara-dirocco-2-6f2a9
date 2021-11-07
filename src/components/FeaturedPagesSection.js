@@ -19,27 +19,6 @@ export default function FeaturedPagesSection({ annotationPrefix, title, subtitle
     );
 }
 
-function featuredPagesHeader(props) {
-    if (!props.title && !props.subtitle) {
-        return null;
-    }
-    const styles = props.styles || {};
-    return (
-        <div>
-            {props.title && (
-                <h2 className="text-3xl sm:text-4xl">
-                    {props.title}
-                </h2>
-            )}
-            {props.subtitle && (
-                <p className="text-lg sm:text-xl">
-                    {props.subtitle}
-                </p>
-            )}
-        </div>
-    );
-}
-
 function featuredPages(props) {
     const featuredPages = props.featuredPages || [];
     if (featuredPages.length === 0) {
