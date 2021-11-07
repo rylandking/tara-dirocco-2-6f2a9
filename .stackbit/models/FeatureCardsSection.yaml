@@ -21,7 +21,7 @@ fields:
     default: Card One Title
   - type: string
     name: excerpt
-    label: Card One Excerpt
+    label: Card One - Excerpt
     default: This is the excerpt of your first feature card visible in the featured cards section.
   - type: model
     name: featuredImage
