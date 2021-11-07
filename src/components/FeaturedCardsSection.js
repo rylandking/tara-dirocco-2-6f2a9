@@ -5,6 +5,8 @@ export default function FeaturedCardsSection({
     title, 
     subtitle,
     titleOne,
+    excerptOne,
+    featuredImageOne,
      
 }) {
 
