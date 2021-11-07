@@ -10,7 +10,7 @@ fields:
   - type: string
     name: excerpt
     label: Excerpt
-    default: This is the excerpt of your feature card visible in the featured posts.
+    default: This is the excerpt of your feature card visible in the featured cards section.
   - type: model
     name: featuredImage
     label: Featured image
