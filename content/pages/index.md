@@ -55,8 +55,8 @@ sections:
     title: Hello! I’m Tara Lynn.
     text: >
       My love for human form, experience, and story has guided me from the dance
-      floor, to the yoga mat, and finally to a doctorate program in physical
-      therapy at Regis University in Denver, CO.
+      floor, to the yoga mat, and finally to become a doctor of physical
+      therapy.
 
 
       A dancer by training and a yogi by chance, I am fascinated by the ways in
