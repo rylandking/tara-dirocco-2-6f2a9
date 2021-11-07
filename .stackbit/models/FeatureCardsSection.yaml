@@ -32,7 +32,7 @@ fields:
       type: ImageBlock
       url: /images/post-1.jpeg
       altText: Card one thumbnail image
-    - type: string
+  - type: string
     name: titleOne
     label: Card One - Title
     default: Card One Title
