@@ -2,9 +2,9 @@ import * as React from 'react';
 import classNames from 'classnames';
 import dayjs from 'dayjs';
 import { getComponent } from '@stackbit/components/dist/components-registry';
-import { mapStylesToClassNames as mapStyles } from '../../utils/map-styles-to-class-names';
-import getPageUrlPath from '../../utils/get-page-url-path';
-import Link from '../../utils/link';
+import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names';
+import getPageUrlPath from '@stackbit/components/dist/utils/get-page-url-path';
+import Link from '@stackbit/components/dist/utils/link';
 
 export default function FeaturedPostsSection(props) {
     const colors = props.colors || 'colors-a';
@@ -127,12 +127,12 @@ function postsVariantA(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2 className="text-xl sm:text-2xl mb-1">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2 className="text-xl sm:text-2xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
@@ -200,16 +200,16 @@ function postsVariantB(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2
-                                    className={classNames('text-xl', 'sm:text-2xl', 'mb-1', {
-                                        'md:text-3xl': isFullWidth
-                                    })}
-                                >
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2
+                                        className={classNames('text-xl', 'sm:text-2xl', 'mb-1', {
+                                            'md:text-3xl': isFullWidth
+                                        })}
+                                    >
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
@@ -260,12 +260,12 @@ function postsVariantC(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2 className="text-xl sm:text-2xl mb-1">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2 className="text-xl sm:text-2xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
