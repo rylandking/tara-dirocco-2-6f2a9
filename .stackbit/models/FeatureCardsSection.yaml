@@ -16,8 +16,8 @@ fields:
     label: Subtitle
     default: These are the featured pages I want to link to
   - type: string
-    name: title
-    label: Title
+    name: titleOne
+    label: Title Card One
     default: Post Title
   - type: string
     name: excerpt
