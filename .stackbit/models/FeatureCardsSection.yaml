@@ -50,22 +50,22 @@ fields:
       url: /images/post-2.jpeg
       altText: Card Two thumbnail image
   - type: string
-    name: titleTwo
-    label: Card Two - Title
-    default: Card Two Title
+    name: titleThree
+    label: Card Three - Title
+    default: Card Three Title
   - type: string
-    name: excerptTwo
-    label: Card Two - Excerpt
+    name: excerptThree
+    label: Card Three - Excerpt
     default: This is the excerpt of your second feature card visible in the featured cards section.
   - type: model
-    name: featuredImageTwo
-    label: Card Two - Featured Image
+    name: featuredImageThree
+    label: Card Three - Featured Image
     models:
       - ImageBlock
     default:
       type: ImageBlock
       url: /images/post-2.jpeg
-      altText: Card Two thumbnail image
+      altText: Card Three thumbnail image
   # - type: list
   #   name: featureCards
   #   label: Cards
