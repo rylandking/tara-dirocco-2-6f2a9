@@ -66,8 +66,8 @@ fields:
     label: Card Three - Excerpt
     default: This is the excerpt of your third feature card visible in the featured cards section.
   - type: string
-    name: linkOne
-    label: Card One - Link
+    name: linkThree
+    label: Card Three - Link
     default: /  
   - type: model
     name: featuredImageThree
