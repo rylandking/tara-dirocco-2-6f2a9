@@ -1,5 +1,5 @@
 ---
-title: This is a new page
+title: Connect
 sections:
   - type: HeroSection
     elementId: homepage-hero-1
