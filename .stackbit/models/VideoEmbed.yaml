@@ -4,6 +4,6 @@ groups:
   - sectionComponent
 fields:
   - type: string
-    name: title
+    name: videoUrl
     label: Title
     default: This Is A Big Hero Headline
