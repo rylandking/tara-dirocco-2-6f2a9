@@ -6,4 +6,4 @@ fields:
   - type: string
     name: videoUrl
     label: Video Link
-    default: This Is A Big Hero Headline
+    default: https://www.youtube.com/watch?v=4XgfhvTDEy4
