@@ -8,6 +8,6 @@ fields:
     label: Video Link
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
   - type: string
-    name: videoUrl
+    name: videoTitle
     label: Video Link
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
