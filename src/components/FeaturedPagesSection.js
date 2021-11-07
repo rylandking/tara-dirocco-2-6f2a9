@@ -117,7 +117,7 @@ function featuredPostsHeader(props) {
 // }
 
 function pagesVariantA(props) {
-    const posts = props.posts || [];
+    const pages = props.posts || [];
     if (posts.length === 0) {
         return null;
     }
