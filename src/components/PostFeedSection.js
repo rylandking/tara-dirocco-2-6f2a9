@@ -45,7 +45,7 @@ export default function PostFeedSection(props) {
                     {PostFeedHeader(props)}
                     <div className="mb-8">
                     {PostFeedActions(props)
-                        </div>
+                    </div>
                     {PostFeedVariants(props)}
                 </div>
             </div>
