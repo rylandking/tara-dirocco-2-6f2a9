@@ -12,8 +12,7 @@ export default function FeaturedPagesSection({annotationPrefix, title, subtitle}
                 <div className="w-full">
                     <h2 className="text-3xl sm:text-4xl">{title}</h2>
                     <p className="text-lg sm:text-xl">
-                    {props.subtitle}
-                </p>
+                    {props.subtitle}</p>
                     {featuredPages(props)}
                     {/* {featuredPostsActions(props)} */}
                 </div>
