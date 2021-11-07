@@ -14,7 +14,6 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
                     <article className="sb-card">
-                        
                             <Link href={getPageUrlPath(post)} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImage">
                                 <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" />
                             </Link>
