@@ -232,4 +232,5 @@ sections:
         margin:
           - mt-12
           - mb-0
+    type: FeaturedPagesSection
 ---
