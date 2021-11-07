@@ -36,16 +36,16 @@ export default function PostLayout(props) {
                             </figure>
                         )}
                         {sections.length > 0 && (
-                    <div data-sb-field-path="bottomSections">
-                        {sections.map((section, index) => {
-                            const Component = getComponent(section.type);
-                            if (!Component) {
-                                throw new Error(`no component matching the page section's type: ${section.type}`);
-                            }
-                            return <Component key={index} {...section} annotationPrefix={`bottomSections.${index}`} />;
-                        })}
-                    </div>
-                )}
+                            <div data-sb-field-path="bottomSections">
+                                {sections.map((section, index) => {
+                                    const Component = getComponent(section.type);
+                                    if (!Component) {
+                                        throw new Error(`no component matching the page section's type: ${section.type}`);
+                                    }
+                                    return <Component key={index} {...section} annotationPrefix={`bottomSections.${index}`} />;
+                                })}
+                            </div>
+                        )}
                         {page.markdown_content && (
                             <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
                                 {page.markdown_content}
