@@ -138,3 +138,49 @@ function featuredPostsActions(props) {
         </div>
     );
 }
+
+function postsVariantA(props) {
+    const posts = props.posts || [];
+    if (posts.length === 0) {
+        return null;
+    }
+    const ImageBlock = getComponent('ImageBlock');
+    return (
+        <div className="grid gap-6 md:grid-cols-3 lg:gap-8" data-sb-field-path=".posts">
+            {posts.map((post, index) => {
+                const dateTimeAttr = dayjs(post.date).format('YYYY-MM-DD HH:mm:ss');
+                const formattedDate = dayjs(post.date).format('MMMM D, YYYY');
+                return (
+                    <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
+                        {post.featuredImage && (
+                            <Link href={getPageUrlPath(post)} className="block h-0 w-full pt-9/16 relative" data-sb-field-path="featuredImage">
+                                <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" />
+                            </Link>
+                        )}
+                        <div className="px-4 py-6 sm:px-6 sm:pb-10">
+                            {props.title ? (
+                                <h3 className="text-xl sm:text-2xl mb-1">
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                        {post.title}
+                                    </Link>
+                                </h3>
+                            ) : (
+                                <h2 className="text-xl sm:text-2xl mb-1">
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                        {post.title}
+                                    </Link>
+                                </h2>
+                            )}
+                            <div className="text-sm mb-3">
+                                <time dateTime={dateTimeAttr} data-sb-field-path="date">
+                                    {formattedDate}
+                                </time>
+                            </div>
+                            {post.excerpt && <p data-sb-field-path="excerpt">{post.excerpt}</p>}
+                        </div>
+                    </article>
+                );
+            })}
+        </div>
+    );
+}
