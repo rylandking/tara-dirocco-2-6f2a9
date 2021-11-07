@@ -187,4 +187,10 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
+  - colors: colors-a
+    backgroundWidth: full
+    elementId: ''
+    title: Start healing
+    subtitle: These are the featured pages I want to link to
+    type: FeaturedPagesSection
 ---
