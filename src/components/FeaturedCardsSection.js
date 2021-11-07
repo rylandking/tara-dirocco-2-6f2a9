@@ -29,7 +29,7 @@ export default function FeaturedCardsSection({
         >
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full pb-10">
-                    <h2 className="text-3xl sm:text-4xl text-center mb-3" data-sb-field-path="title">{title}</h2>
+                    <h2 className="text-3xl sm:text-4xl text-center mb-3" data-sb-field-path=".title">{title}</h2>
                     <p className="text-lg sm:text-xl text-center" data-sb-field-path=".subtitle">{subtitle}</p>
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
@@ -41,7 +41,7 @@ export default function FeaturedCardsSection({
                         </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                             <h2 className="text-xl sm:text-2xl mb-1">
-                                <Link href={linkOne} data-sb-field-path="titleOne">
+                                <Link href={linkOne} data-sb-field-path=".titleOne">
                                     {titleOne}
                                 </Link>
                             </h2>
@@ -55,7 +55,7 @@ export default function FeaturedCardsSection({
                         </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                             <h2 className="text-xl sm:text-2xl mb-1">
-                                <Link href={linkTwo} data-sb-field-path="titleTwo">
+                                <Link href={linkTwo} data-sb-field-path=".titleTwo">
                                     {titleTwo}
                                 </Link>
                             </h2>
@@ -69,7 +69,7 @@ export default function FeaturedCardsSection({
                         </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                             <h2 className="text-xl sm:text-2xl mb-1">
-                                <Link href={linkThree} data-sb-field-path="titleThree">
+                                <Link href={linkThree} data-sb-field-path=".titleThree">
                                     {titleThree}
                                 </Link>
                             </h2>
