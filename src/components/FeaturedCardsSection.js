@@ -18,7 +18,7 @@ export default function FeaturedCardsSection({
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
                     <h2 className="text-3xl sm:text-4xl text-center" data-sb-field-path="title">{title}</h2>
-                    <p className="text-lg sm:text-xl text-center">{subtitle}</p>                    
+                    <p className="text-lg sm:text-xl text-center" data-sb-field-path="subtitle">{subtitle}</p>                    
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 lg:gap-8">
                     {/* Feature Card One */}
