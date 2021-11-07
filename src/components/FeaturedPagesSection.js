@@ -84,7 +84,7 @@ function featuredPostsHeader(props) {
     return (
         <div>
             {props.title && (
-                <h2 className="text-3xl sm:text-4xl"
+                <h2 className="text-3xl sm:text-4xl">
                     {props.title}
                 </h2>
             )}
