@@ -28,7 +28,7 @@ sections:
           width: 1/2
         - name: Message
           label: Message
-          placeholder: Please describe
+          placeholder: Hey Tara...
           isRequired: false
           width: full
           type: TextareaFormControl
