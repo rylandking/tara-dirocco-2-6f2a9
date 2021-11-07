@@ -8,7 +8,7 @@ registerComponents({
     Action: dynamic(() => import('./Action.js')),
     PostFeedSection: dynamic(() => import('./PostFeedSection.js')),
     PostLayout: dynamic(() => import('./PostLayout.js')),
-    PostLayout: dynamic(() => import('./PostLayout.js'))
+    VideoEmbed: dynamic(() => import('./VideoEmbed.js'))
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
