@@ -69,7 +69,7 @@ export default function FeaturedPagesSection(props) {
                 <div className="w-full">
                     {featuredPostsHeader(props)}
                     {postsVariantA(props)}
-                    {featuredPostsActions(props)}
+                    {/* {featuredPostsActions(props)} */}
                 </div>
             </div>
         </div>
