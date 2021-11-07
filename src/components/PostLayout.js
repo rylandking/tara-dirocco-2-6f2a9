@@ -8,7 +8,7 @@ import { getComponent } from '@stackbit/components/dist/components-registry';
 export default function PostLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const bottomSections = page.bottomSections || [];
+    const bottomections = page.bottomSections || [];
     const dateTimeAttr = dayjs(page.date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(page.date).format('MMMM D, YYYY');
 
@@ -53,9 +53,9 @@ export default function PostLayout(props) {
                         )}
                     </div>
                 </article>
-                {bottomSections.length > 0 && (
+                {sections.length > 0 && (
                     <div data-sb-field-path="bottomSections">
-                        {bottomSections.map((section, index) => {
+                        {sections.map((section, index) => {
                             const Component = getComponent(section.type);
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
