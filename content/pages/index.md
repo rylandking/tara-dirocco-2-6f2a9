@@ -193,4 +193,12 @@ sections:
     title: Start healing
     subtitle: These are the featured pages I want to link to
     type: FeaturedPagesSection
+    featuredImage:
+      altText: lorem-ipsum
+      caption: lorem-ipsum
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
 ---
