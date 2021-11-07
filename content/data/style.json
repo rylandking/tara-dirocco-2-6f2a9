@@ -32,7 +32,7 @@
         "case": "none"
     },
     "buttonSecondary": {
-        "radius": 0,
+        "radius": "0.125rem",
         "case": "none"
     }
 }
