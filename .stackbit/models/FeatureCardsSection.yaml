@@ -31,7 +31,7 @@ fields:
     default:
       type: ImageBlock
       url: /images/post-1.jpeg
-      altText: Card thumbnail image
+      altText: Card one thumbnail image
   # - type: list
   #   name: featureCards
   #   label: Cards
