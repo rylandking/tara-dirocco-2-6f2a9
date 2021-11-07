@@ -26,7 +26,7 @@ sections:
           placeholder: Your email
           isRequired: true
           width: 1/2
-        - name: lorem-ipsum
+        - name: Message
           label: Description
           placeholder: Please describe
           isRequired: false
