@@ -69,7 +69,7 @@ export default function FeaturedPagesSection(props) {
                 className="flex flex-col max-w-screen-2xl"
                 )}
             >
-                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                <div className="w-full", sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     {featuredPostsHeader(props)}
                     {postsVariantA(props)}
                     {featuredPostsActions(props)}
