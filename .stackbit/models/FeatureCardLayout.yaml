@@ -6,7 +6,6 @@ fields:
     name: title
     label: Title
     default: Post Title
-    required: true
   - type: string
     name: excerpt
     label: Excerpt
