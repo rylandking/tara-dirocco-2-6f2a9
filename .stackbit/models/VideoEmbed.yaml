@@ -7,3 +7,7 @@ fields:
     name: videoUrl
     label: Video Link
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
+  - type: string
+    name: videoUrl
+    label: Video Link
+    default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
