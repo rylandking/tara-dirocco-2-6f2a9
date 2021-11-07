@@ -32,6 +32,23 @@ fields:
       type: ImageBlock
       url: /images/post-1.jpeg
       altText: Card one thumbnail image
+    - type: string
+    name: titleOne
+    label: Card One - Title
+    default: Card One Title
+  - type: string
+    name: excerptOne
+    label: Card One - Excerpt
+    default: This is the excerpt of your first feature card visible in the featured cards section.
+  - type: model
+    name: featuredImageOne
+    label: Card One - Featured Image
+    models:
+      - ImageBlock
+    default:
+      type: ImageBlock
+      url: /images/post-1.jpeg
+      altText: Card one thumbnail image
   # - type: list
   #   name: featureCards
   #   label: Cards
