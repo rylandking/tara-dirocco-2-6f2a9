@@ -43,8 +43,9 @@ export default function PostFeedSection(props) {
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     {PostFeedHeader(props)}
-                    <div className="mb-8"></div>
-                    {PostFeedActions(props)}
+                    <div className="mb-8">
+                    {PostFeedActions(props)
+                        </div>
                     {PostFeedVariants(props)}
                 </div>
             </div>
