@@ -2,7 +2,7 @@
     "model": "VideoEmbed",
     "presets": [{
             "label": "Video Embed",
-            "thumbnail": "images/text-section-dark.png",
+            "thumbnail": "images/video-embed-section.png",
             "data": {
                 "colors": "colors-c"
             }
