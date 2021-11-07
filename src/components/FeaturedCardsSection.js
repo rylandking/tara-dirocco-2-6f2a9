@@ -7,7 +7,7 @@ export default function FeaturedCardsSection({
     titleOne,
     excerptOne,
     featuredImageOne,
-     
+    linkOne 
 }) {
 
     return (
