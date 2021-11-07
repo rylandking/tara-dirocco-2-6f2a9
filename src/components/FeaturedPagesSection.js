@@ -58,17 +58,14 @@ const posts = [
 ]
 
 export default function FeaturedPagesSection(props) {
-    
+
     return (
         <div
             id={props.elementId}
             className=""
             data-sb-field-path={props.annotationPrefix}
         >
-            <div
-                className="flex flex-col max-w-screen-2xl"
-                )}
-            >
+            <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
                     {featuredPostsHeader(props)}
                     {postsVariantA(props)}
@@ -145,12 +142,12 @@ function postsVariantA(props) {
                                     </Link>
                                 </h3>
                             ) : (
-                                <h2 className="text-xl sm:text-2xl mb-1">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
-                                    </Link>
-                                </h2>
-                            )}
+                                    <h2 className="text-xl sm:text-2xl mb-1">
+                                        <Link href={getPageUrlPath(post)} data-sb-field-path="title">
+                                            {post.title}
+                                        </Link>
+                                    </h2>
+                                )}
                             <div className="text-sm mb-3">
                                 <time dateTime={dateTimeAttr} data-sb-field-path="date">
                                     {formattedDate}
