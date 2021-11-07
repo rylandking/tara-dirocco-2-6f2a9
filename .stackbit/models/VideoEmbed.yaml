@@ -9,5 +9,5 @@ fields:
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
   - type: string
     name: videoTitle
-    label: Video Link
+    label: Video Title
     default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
