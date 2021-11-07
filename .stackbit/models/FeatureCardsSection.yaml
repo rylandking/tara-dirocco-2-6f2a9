@@ -17,11 +17,11 @@ fields:
     default: These are the featured pages I want to link to
   - type: string
     name: titleOne
-    label: Title Card One
+    label: Card One Title
     default: Card One Title
   - type: string
     name: excerpt
-    label: Excerpt Card One
+    label: Card One Excerpt
     default: This is the excerpt of your first feature card visible in the featured cards section.
   - type: model
     name: featuredImage
