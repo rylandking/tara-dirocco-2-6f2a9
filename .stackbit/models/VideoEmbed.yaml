@@ -5,5 +5,5 @@ groups:
 fields:
   - type: string
     name: videoUrl
-    label: Title
+    label: Video Link
     default: This Is A Big Hero Headline
