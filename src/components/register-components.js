@@ -7,6 +7,7 @@ registerComponents({
     ...componentsMap,
     Action: dynamic(() => import('./Action.js')),
     PostFeedSection: dynamic(() => import('./PostFeedSection.js')),
+    PostLayout: dynamic(() => import('./PostLayout.js')),
     PostLayout: dynamic(() => import('./PostLayout.js'))
 
     // Override any static or dynamic component,
