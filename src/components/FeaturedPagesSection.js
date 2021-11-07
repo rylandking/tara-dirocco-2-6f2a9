@@ -10,7 +10,7 @@ export default function FeaturedPagesSection(props) {
         >
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
-                    {featuredPostsHeader(props)}
+                    {featuredPagesHeader(props)}
                     {featuredPages(props)}
                     {/* {featuredPostsActions(props)} */}
                 </div>
@@ -19,7 +19,7 @@ export default function FeaturedPagesSection(props) {
     );
 }
 
-function featuredPostsHeader(props) {
+function featuredPagesHeader(props) {
     if (!props.title && !props.subtitle) {
         return null;
     }
