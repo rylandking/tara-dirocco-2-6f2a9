@@ -15,7 +15,23 @@ fields:
     name: subtitle
     label: Subtitle
     default: These are the featured pages I want to link to
-  
+  - type: string
+    name: title
+    label: Title
+    default: Post Title
+  - type: string
+    name: excerpt
+    label: Excerpt
+    default: This is the excerpt of your feature card visible in the featured cards section.
+  - type: model
+    name: featuredImage
+    label: Featured image
+    models:
+      - ImageBlock
+    default:
+      type: ImageBlock
+      url: /images/post-1.jpeg
+      altText: Card thumbnail image
   # - type: list
   #   name: featureCards
   #   label: Cards
