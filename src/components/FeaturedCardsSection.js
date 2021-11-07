@@ -29,7 +29,6 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                                             {post.title}
                                         </Link>
                                     </h2>
-                                )}
                             {post.excerpt && <p data-sb-field-path="excerpt">{post.excerpt}</p>}
                         </div>
                     </article>
