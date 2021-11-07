@@ -15,3 +15,14 @@ fields:
     name: subtitle
     label: Subtitle
     default: These are the featured pages I want to link to
+  - type: list
+    name: posts
+    label: Posts
+    items:
+      type: reference
+      models:
+        - PostLayout
+    default:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
