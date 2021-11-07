@@ -57,43 +57,84 @@ const posts = [
     },
 ]
 
-export default function FeaturedPagesSection({ title, subtitle }) {
+export default function FeaturedPostsSection(props) {
+    const colors = props.colors || 'colors-a';
+    const backgroundWidth = props.backgroundWidth || 'full';
+    const sectionStyles = props.styles?.self || {};
 
     return (
-        <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-            <div className="absolute inset-0">
-                <div className="bg-white h-1/3 sm:h-2/3" />
-            </div>
-            <div className="relative max-w-7xl mx-auto">
-                <div className="text-center">
-                    <h2 className="text-2xl tracking-tight font-bold text-gray-900 sm:text-4xl">Start healing</h2>
-                    <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
-                    </p>
-                </div>
-                <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                    {posts.map((post) => (
-                        <div key={post.title} className="flex flex-col shadow-lg overflow-hidden">
-                            <div className="flex-shrink-0">
-                                <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
-                            </div>
-                            <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                                <div className="flex-1">
-                                    <p className="text-sm font-medium text-indigo-600">
-                                        <a href={post.category.href} className="hover:underline">
-                                            {post.category.name}
-                                        </a>
-                                    </p>
-                                    <a href={post.href} className="block mt-2">
-                                        <p className="text-xl font-semibold text-gray-900">{post.title}</p>
-                                        <p className="mt-3 text-base text-gray-500">{post.description}</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+        <div
+            id={props.elementId}
+            className={classNames(
+                'sb-component',
+                'sb-component-section',
+                backgroundWidth === 'inset' ? 'sb-component-section-inset' : null,
+                'sb-component-featured-posts-section',
+                colors,
+                'px-4',
+                'sm:px-8',
+                sectionStyles.margin
+            )}
+            data-sb-field-path={props.annotationPrefix}
+        >
+            <div
+                className={classNames(
+                    'flex',
+                    'flex-col',
+                    'max-w-screen-2xl',
+                    'mx-auto',
+                    sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
+                    sectionStyles.padding,
+                    sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null,
+                    sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
+                )}
+            >
+                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                    {featuredPostsHeader(props)}
+                    {featuredPostsVariants(props)}
+                    {featuredPostsActions(props)}
                 </div>
             </div>
+        </div>
+    );
+}
+
+function featuredPostsHeader(props) {
+    if (!props.title && !props.subtitle) {
+        return null;
+    }
+    const styles = props.styles || {};
+    return (
+        <div>
+            {props.title && (
+                <h2 className={classNames('text-3xl', 'sm:text-4xl', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                    {props.title}
+                </h2>
+            )}
+            {props.subtitle && (
+                <p className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null)} data-sb-field-path=".subtitle">
+                    {props.subtitle}
+                </p>
+            )}
+        </div>
+    );
+}
+
+function featuredPostsActions(props) {
+    const actions = props.actions || [];
+    if (actions.length === 0) {
+        return null;
+    }
+    const styles = props.styles || {};
+    const Action = getComponent('Action');
+    return (
+        <div
+            className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', styles.actions ? mapStyles(styles.actions) : null)}
+            data-sb-field-path=".actions"
+        >
+            {props.actions.map((action, index) => (
+                <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" annotationPrefix={`.${index}`} />
+            ))}
         </div>
     );
 }
