@@ -1,9 +1,6 @@
 import * as React from 'react';
 
 export default function FeaturedPagesSection(props) {
-    const colors = props.colors || 'colors-a';
-    const backgroundWidth = props.backgroundWidth || 'full';
-    const sectionStyles = props.styles?.self || {};
 
     return (
         <div
