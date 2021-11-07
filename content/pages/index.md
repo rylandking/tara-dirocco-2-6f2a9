@@ -98,6 +98,9 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    subtitle: >-
+      Tara Lynn is a yoga teacher, doctor of physical therapy, and blogger with
+      a focus on chronic illness & pain, pelvic health, and yoga.
   - type: TextSection
     colors: colors-a
     backgroundWidth: full
