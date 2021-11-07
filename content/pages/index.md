@@ -187,10 +187,4 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - colors: colors-a
-    backgroundWidth: full
-    elementId: ''
-    title: Featured
-    subtitle: Featured blog posts section example
-    type: FeaturedPagesSection
 ---
