@@ -1,4 +1,4 @@
-const VideoEmbed = ({ videoUrl, videoTitle }) => {
+const VideoEmbed = ({ annotationPrefix, videoUrl, videoTitle }) => {
     console.log(videoUrl);
 
     return (
