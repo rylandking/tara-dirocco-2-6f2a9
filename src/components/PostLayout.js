@@ -38,7 +38,7 @@ export default function PostLayout(props) {
                         )}
                         {topSections.length > 0 && (
                             <div data-sb-field-path="topSections">
-                                {sections.map((section, index) => {
+                                {topSections.map((section, index) => {
                                     const Component = getComponent(section.type);
                                     if (!Component) {
                                         throw new Error(`no component matching the page section's type: ${section.type}`);
