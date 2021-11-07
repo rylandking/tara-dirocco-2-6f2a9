@@ -4,7 +4,6 @@ export default function FeaturedPagesSection({ annotationPrefix, title, subtitle
 
     return (
         <div
-            id={props.elementId}
             className=""
             data-sb-field-path={annotationPrefix}
         >
