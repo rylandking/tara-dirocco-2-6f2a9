@@ -55,7 +55,7 @@ export default function PostLayout(props) {
                 </article>
                 {bottomSections.length > 0 && (
                     <div data-sb-field-path="bottomSections">
-                        {sections.map((section, index) => {
+                        {bottomSections.map((section, index) => {
                             const Component = getComponent(section.type);
                             if (!Component) {
                                 throw new Error(`no component matching the page section's type: ${section.type}`);
