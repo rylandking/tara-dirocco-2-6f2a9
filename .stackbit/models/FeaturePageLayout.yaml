@@ -1,5 +1,5 @@
 name: FeaturePageLayout
-label: Post
+label: Feature Page
 layout: FeaturePageLayout
 fields:
   - type: string
