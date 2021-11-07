@@ -65,6 +65,7 @@ fields:
     name: excerptThree
     label: Card Three - Excerpt
     default: This is the excerpt of your third feature card visible in the featured cards section.
+  
   - type: model
     name: featuredImageThree
     label: Card Three - Featured Image
