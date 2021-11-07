@@ -10,7 +10,7 @@ fields:
   - type: string
     name: excerpt
     label: Excerpt
-    default: This is the excerpt of your blog post visible in the post feed or featured posts.
+    default: This is the excerpt of your feature card visible in the post feed or featured posts.
   - type: model
     name: featuredImage
     label: Featured image
