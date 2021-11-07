@@ -18,7 +18,7 @@ fields:
   - type: string
     name: titleOne
     label: Title Card One
-    default: Card Title
+    default: Card One Title
   - type: string
     name: excerpt
     label: Excerpt
