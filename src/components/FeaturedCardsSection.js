@@ -42,7 +42,6 @@ export default function FeaturedCardsSection({
                             </div>
                             <div className="px-4 py-6 sm:px-6 sm:pb-10 bg-gray-100">
                                 <h2 className="text-xl sm:text-2xl mb-1" data-sb-field-path=".titleOne">
-                                    <Link href={linkOne} >
                                         {titleOne}
                                     </Link>
                                 </h2>
