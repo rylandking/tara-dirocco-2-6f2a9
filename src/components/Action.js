@@ -53,7 +53,7 @@ export default function Action(props) {
         canSetCategory = true;
         if (label === 'Blogs' || label === 'Podcasts' || label === 'Videos')
         labelState = label.slice(0, -1);
-        
+    }
     }
 
     return (
