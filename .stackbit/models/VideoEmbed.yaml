@@ -6,7 +6,7 @@ groups:
 fields:
   - type: string
     name: videoId
-    label: Video Link
+    label: YouTube Video Id
     default: 4XgfhvTDEy4
   - type: string
     name: videoTitle
