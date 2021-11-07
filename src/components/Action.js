@@ -49,7 +49,7 @@ export default function Action(props) {
 
     let canSetCategory = false;
 
-    if (label === 'Blogs' || label === 'Podcasts' || label === 'Video') {
+    if (label === 'Blog' || label === 'Podcast' || label === 'Video' || label === 'View all') {
         canSetCategory = true;
     }
 
