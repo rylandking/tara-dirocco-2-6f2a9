@@ -17,24 +17,7 @@ export default function FeaturedPagesSection(props) {
             )}
             data-sb-field-path={props.annotationPrefix}
         >
-            <div
-                className={classNames(
-                    'flex',
-                    'flex-col',
-                    'max-w-screen-2xl',
-                    'mx-auto',
-                    sectionStyles.height ? mapMinHeightStyles(sectionStyles.height) : null,
-                    sectionStyles.padding,
-                    sectionStyles.alignItems ? mapStyles({ alignItems: sectionStyles.alignItems }) : null,
-                    sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
-                )}
-            >
-                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
-                    {featuredPostsHeader(props)}
-                    {pagesVariantA(props)}
-                    {featuredPostsActions(props)}
-                </div>
-            </div>
+           <p>123</p>
         </div>
     );
 }
