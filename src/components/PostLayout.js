@@ -36,7 +36,7 @@ export default function PostLayout(props) {
                             </figure>
                         )}
                         {sections.length > 0 && (
-                            <div data-sb-field-path="bottomSections">
+                            <div data-sb-field-path="topSections">
                                 {sections.map((section, index) => {
                                     const Component = getComponent(section.type);
                                     if (!Component) {
