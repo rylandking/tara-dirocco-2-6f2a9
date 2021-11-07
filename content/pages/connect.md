@@ -5,7 +5,9 @@ sections:
     colors: colors-a
     backgroundWidth: full
     title: I'd love to hear from you
-    text: We look forward to hearing from you.
+    text: >
+      Want to be on the podcast? Want to write a guest post? Have yoga class or
+      content requests? Send over an email and share!
     form:
       type: FormBlock
       elementId: contact-form
