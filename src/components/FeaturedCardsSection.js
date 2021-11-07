@@ -45,7 +45,7 @@ export default function FeaturedCardsSection({
                                     {titleOne}
                                 </Link>
                             </h2>
-                            <p data-sb-field-path="excerptOne">{excerptOne}</p>
+                            <p data-sb-field-path=".excerptOne">{excerptOne}</p>
                         </div>
                     </article>
                     {/* Feature Card Two */}
@@ -59,7 +59,7 @@ export default function FeaturedCardsSection({
                                     {titleTwo}
                                 </Link>
                             </h2>
-                            <p data-sb-field-path="excerptTwo">{excerptTwo}</p>
+                            <p data-sb-field-path=".excerptTwo">{excerptTwo}</p>
                         </div>
                     </article>
                     {/* Feature Card Three */}
@@ -73,7 +73,7 @@ export default function FeaturedCardsSection({
                                     {titleThree}
                                 </Link>
                             </h2>
-                            <p data-sb-field-path="excerptThree">{excerptThree}</p>
+                            <p data-sb-field-path=".excerptThree">{excerptThree}</p>
                         </div>
                     </article>
                 </div>
