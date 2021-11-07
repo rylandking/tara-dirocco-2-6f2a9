@@ -1,6 +1,6 @@
 type: object
-name: FeaturedPostsSection
-label: Featured posts section
+name: FeaturedPagesSection
+label: Featured pages section
 labelField: title
 extends:
   - Section
