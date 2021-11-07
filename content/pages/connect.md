@@ -36,7 +36,7 @@ sections:
           name: updates
           label: Sign me up to receive updates
           width: full
-      submitLabel: Send Message
+      submitLabel: Submit
     feature: null
     styles:
       self:
