@@ -68,7 +68,7 @@ export default function FeaturedPagesSection(props) {
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
                     {featuredPostsHeader(props)}
-                    {postsVariantA(props)}
+                    {pagesVariantA(props)}
                     {/* {featuredPostsActions(props)} */}
                 </div>
             </div>
