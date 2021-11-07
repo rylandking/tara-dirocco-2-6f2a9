@@ -21,7 +21,7 @@ fields:
     items:
       type: reference
       models:
-        - PostLayout
+        - FeatureCardLayout
     default:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
