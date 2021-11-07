@@ -158,7 +158,7 @@ sections:
     elementId: ''
     title: Start healing
     subtitle: These are the featured pages I want to link to
-    titleOne: Card One Title
+    titleOne: Blogs
     excerptOne: >-
       This is the excerpt of your first feature card visible in the featured
       cards section.
