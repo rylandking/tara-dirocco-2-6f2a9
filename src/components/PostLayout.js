@@ -15,7 +15,6 @@ export default function PostLayout(props) {
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="layout post-layout">
-                
                 <article className="px-4 sm:px-8 py-14 lg:py-20">
                     <div className="max-w-screen-2xl mx-auto">
                         <header className="max-w-screen-md mx-auto mb-12 text-center">
