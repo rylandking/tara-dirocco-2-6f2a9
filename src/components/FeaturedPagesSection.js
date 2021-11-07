@@ -41,15 +41,15 @@ function featuredPostsHeader(props) {
 }
 
 function featuredPages(props) {
-    const pages = props.pages || [];
-    if (pages.length === 0) {
+    const featuredPages = props.featuredPages || [];
+    if (featuredPages.length === 0) {
         return null;
     }
     const ImageBlock = getComponent('ImageBlock');
 
     return (
         <div className="grid gap-6 md:grid-cols-3 lg:gap-8" data-sb-field-path=".posts">
-            {pages.map((post, index) => {
+            {featuredPages.map((post, index) => {
                 return (
                     <article key={index} className="sb-card" data-sb-object-id={post.__metadata.id}>
                         {post.featuredImage && (
