@@ -10,4 +10,4 @@ fields:
   - type: string
     name: videoTitle
     label: Video Title
-    default: https://www.youtube-nocookie.com/embed/4XgfhvTDEy4
+    default: Tara Lynn Yoga
