@@ -42,7 +42,7 @@ export default function PostFeedSection(props) {
                 )}
             >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
-                {PostFeedHeader(props)}
+                    {PostFeedHeader(props)}
                     {PostFeedActions(props)}
                     {PostFeedVariants(props)}
                 </div>
@@ -81,7 +81,7 @@ function PostFeedActions(props) {
     const Action = getComponent('Action');
     return (
         <div
-            className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', 'mb-6', styles.actions ? mapStyles(styles.actions) : null)}
+            className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', 'mb-10', styles.actions ? mapStyles(styles.actions) : null)}
             data-sb-field-path=".actions"
         >
             {props.actions.map((action, index) => (
