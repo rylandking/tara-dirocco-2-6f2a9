@@ -110,6 +110,7 @@ function postsVariantA(props) {
     if (posts.length === 0) {
         return null;
     }
+    console.log(category);
 
     if (category !== 'View all') {
         posts = posts.filter(function (post) {
