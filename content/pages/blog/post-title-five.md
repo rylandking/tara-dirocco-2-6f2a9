@@ -54,10 +54,7 @@ bottomSections:
 layout: PostLayout
 contentType: Podcasts
 category: Podcast
-topSections:
-  - videoId: 4XgfhvTDEy4
-    videoTitle: Tara Lynn Yoga
-    type: VideoEmbed
+topSections: []
 author: content/data/team/desmond-eagle.json
 ---
 ## Lorem ipsum
