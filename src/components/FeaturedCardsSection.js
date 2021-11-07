@@ -18,7 +18,7 @@ export default function FeaturedCardsSection({ annotationPrefix, title, subtitle
                                 <ImageBlock {...post.featuredImage} className="absolute left-0 top-0 h-full w-full object-cover" />
                             </Link>
                         <div className="px-4 py-6 sm:px-6 sm:pb-10">
-                            {props.title ? (
+                            
                                 <h3 className="text-xl sm:text-2xl mb-1">
                                     <Link href={getPageUrlPath(post)} data-sb-field-path="title">
                                         {post.title}
