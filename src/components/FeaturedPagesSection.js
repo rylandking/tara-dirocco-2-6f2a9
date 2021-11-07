@@ -4,7 +4,7 @@ export default function FeaturedPagesSection({ annotationPrefix, title, subtitle
 
     return (
         <div
-            className=""
+            className="w-full flex justify-center"
             data-sb-field-path={annotationPrefix}
         >
             <div className="flex flex-col max-w-screen-2xl">
