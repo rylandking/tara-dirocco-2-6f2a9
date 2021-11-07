@@ -89,7 +89,7 @@ function featuredPostsHeader(props) {
                 </h2>
             )}
             {props.subtitle && (
-                <p className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null)} data-sb-field-path=".subtitle">
+                <p className="text-lg sm:text-xl"'text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null)} data-sb-field-path=".subtitle">
                     {props.subtitle}
                 </p>
             )}
