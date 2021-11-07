@@ -97,16 +97,7 @@ export default function FeaturedPagesSection({ }) {
                                         </a>
                                     </div>
                                     <div className="ml-3">
-                                        <p className="text-sm font-medium text-gray-900">
-                                            <a href={post.author.href} className="hover:underline">
-                                                {post.author.name}
-                                            </a>
-                                        </p>
-                                        <div className="flex space-x-1 text-sm text-gray-500">
-                                            <time dateTime={post.datetime}>{post.date}</time>
-                                            <span aria-hidden="true">&middot;</span>
-                                            <span>{post.readingTime} read</span>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
