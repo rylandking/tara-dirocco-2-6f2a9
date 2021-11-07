@@ -98,6 +98,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    subtitle: ' '
   - type: TextSection
     colors: colors-a
     backgroundWidth: full
