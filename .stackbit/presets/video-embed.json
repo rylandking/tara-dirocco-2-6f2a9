@@ -2,6 +2,6 @@
     "model": "VideoEmbed",
     "presets": [{
             "label": "Video Embed",
-            "thumbnail": "images/video-embed-section.png",
+            "thumbnail": "images/video-embed-preset.png",
     }]
 }
