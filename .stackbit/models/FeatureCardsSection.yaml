@@ -25,7 +25,7 @@ fields:
     default: This is the excerpt of your first feature card visible in the featured cards section.
   - type: model
     name: featuredImage
-    label: Card One Featured Image
+    label: Card One - Featured Image
     models:
       - ImageBlock
     default:
