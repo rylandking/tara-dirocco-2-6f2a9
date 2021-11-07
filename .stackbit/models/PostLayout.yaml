@@ -45,7 +45,7 @@ fields:
         - sectionComponent
   - type: list
     name: bottomSections
-    label: Sections
+    label: Bottom Sections
     items:
       type: model
       groups:
