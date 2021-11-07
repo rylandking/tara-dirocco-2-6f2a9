@@ -16,7 +16,7 @@ fields:
     label: Subtitle
     default: These are the featured pages I want to link to
   - type: list
-    name: posts
+    name: p
     label: Posts
     items:
       type: reference
