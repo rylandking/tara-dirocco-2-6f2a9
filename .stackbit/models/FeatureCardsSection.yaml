@@ -20,11 +20,11 @@ fields:
     label: Card One - Title
     default: Card One Title
   - type: string
-    name: excerpt
+    name: excerptOne
     label: Card One - Excerpt
     default: This is the excerpt of your first feature card visible in the featured cards section.
   - type: model
-    name: featuredImage
+    name: featuredImageOne
     label: Card One - Featured Image
     models:
       - ImageBlock
