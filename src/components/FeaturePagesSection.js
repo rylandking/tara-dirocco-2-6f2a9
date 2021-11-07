@@ -101,7 +101,7 @@ function featuredPostsActions(props) {
 //     return null;
 // }
 
-function postsVariantA(props) {
+function pagesVariantA(props) {
     const posts = props.posts || [];
     if (posts.length === 0) {
         return null;
