@@ -10,7 +10,9 @@ export default function FeaturedPagesSection({annotationPrefix, title, subtitle}
         >
             <div className="flex flex-col max-w-screen-2xl">
                 <div className="w-full">
-                    {featuredPagesHeader(props)}
+                    <h2 className="text-3xl sm:text-4xl">
+                    {props.title}
+                </h2>
                     {featuredPages(props)}
                     {/* {featuredPostsActions(props)} */}
                 </div>
