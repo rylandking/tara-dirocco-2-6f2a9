@@ -119,8 +119,8 @@ sections:
         style: primary
         altText: View all of Tara Lynn's media
     posts:
-      - content/pages/blog/post-two.md
       - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
       - content/pages/blog/post-one.md
     styles:
       self:
