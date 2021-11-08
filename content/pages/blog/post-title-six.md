@@ -14,7 +14,7 @@ layout: PostLayout
 category: Video
 author: content/data/team/desmond-eagle.json
 topSections:
-  - videoId: 4XgfhvTDEy4
+  - videoId: nsOKWD6umCQ
     videoTitle: Tara Lynn Yoga
     type: VideoEmbed
   - videoId: 4XgfhvTDEy4
