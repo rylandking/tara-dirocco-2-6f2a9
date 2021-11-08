@@ -108,7 +108,7 @@ sections:
       you can find a pathway towards living more freely and in less pain.
   - elementId: ''
     variant: variant-a
-    colors: colors-a
+    colors: colors-i
     backgroundWidth: full
     title: Featured
     subtitle: Featured blog posts section example
