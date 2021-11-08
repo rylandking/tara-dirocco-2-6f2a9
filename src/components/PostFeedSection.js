@@ -115,8 +115,8 @@ function postsVariantA(props) {
     console.log(category);
 
     React.useEffect(() => {
-        const params = new URLSearchParams(window.location.search) // mediaType=123
-        let id = params.get('mediaType') // 123 
+        const params = new URLSearchParams(window.location.search) // mediaType=Blogs
+        let id = params.get('mediaType') // Blogs 
     }, [])
 
     if (category !== 'View all') {
