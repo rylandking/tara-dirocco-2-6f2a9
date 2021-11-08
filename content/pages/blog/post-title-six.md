@@ -17,6 +17,9 @@ topSections:
   - videoId: 4XgfhvTDEy4
     videoTitle: Tara Lynn Yoga
     type: VideoEmbed
+  - videoId: 4XgfhvTDEy4
+    videoTitle: Tara Lynn Yoga
+    type: VideoEmbed
 ---
 ## Lorem ipsum
 
