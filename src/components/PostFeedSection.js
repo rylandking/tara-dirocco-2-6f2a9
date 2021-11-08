@@ -115,10 +115,8 @@ function postsVariantA(props) {
     console.log(category);
 
     React.useEffect(() => {
-
         const params = new URLSearchParams(window.location.search) // id=123
         let id = params.get('id') // 123 
-
     }, [])
 
     if (category !== 'View all') {
