@@ -3,7 +3,7 @@ title: Home
 layout: PageLayout
 sections:
   - elementId: ''
-    colors: colors-b
+    colors: colors-h
     backgroundWidth: full
     title: Hello! I’m Tara Lynn.
     text: >
