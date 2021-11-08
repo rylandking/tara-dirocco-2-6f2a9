@@ -105,7 +105,7 @@ function PostFeedVariants(props) {
 }
 
 function postsVariantA(props) {
-    const { category } = useContext(GlobalContext);
+    let { category } = useContext(GlobalContext);
 
     let posts = props.posts || [];
 
