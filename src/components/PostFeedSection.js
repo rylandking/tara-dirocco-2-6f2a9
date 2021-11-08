@@ -112,7 +112,6 @@ function postsVariantA(props) {
     if (posts.length === 0) {
         return null;
     }
-    console.log(category);
 
     React.useEffect(() => {
         const params = new URLSearchParams(window.location.search) // mediaType=Blogs
