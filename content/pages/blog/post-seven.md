@@ -15,3 +15,6 @@ layout: PostLayout
 ---
 Hello world!
 
+This is where you add/edit content!
+
+![](/images/dianne-ameter.jpg)
