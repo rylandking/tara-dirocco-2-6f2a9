@@ -12,7 +12,6 @@ featuredImage:
 topSections: []
 bottomSections: []
 layout: PostLayout
-author: content/data/team/desmond-eagle.json
 ---
 ## Lorem ipsum
 
