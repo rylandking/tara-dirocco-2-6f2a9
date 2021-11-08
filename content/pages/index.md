@@ -2,53 +2,6 @@
 title: Home
 layout: PageLayout
 sections:
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-a
-    backgroundWidth: full
-    title: Your body is new every moment.
-    text: >
-      Tara Lynn is a yoga teacher, doctor of physical therapy, and blogger with
-      a focus on chronic illness & pain, pelvic health, and yoga.
-    actions: []
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-12
-          - pb-12
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-neutral
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: left
-        margin:
-          - mt-0
-          - mb-4
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: left
-        margin:
-          - mt-0
-          - mb-6
-      text:
-        textAlign: left
-        margin:
-          - mt-0
-          - mb-8
-      actions:
-        justifyContent: flex-start
   - elementId: ''
     colors: colors-a
     backgroundWidth: full
