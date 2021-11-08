@@ -21,7 +21,7 @@ sections:
       I am an experiential believer that we can explore our pain to uncover the
       stories that guide us, and even ENJOY the process while we are at it!
     actions:
-      - label: Learn more
+      - label: Take a free yoga class
         altText: Learn more
         url: /
         showIcon: false
