@@ -115,7 +115,7 @@ sections:
     actions:
       - type: Button
         label: View all
-        url: /
+        url: /media
         style: primary
     posts:
       - content/pages/blog/post-three.md
