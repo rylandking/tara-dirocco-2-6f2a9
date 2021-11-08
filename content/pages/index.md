@@ -20,7 +20,16 @@ sections:
 
       I am an experiential believer that we can explore our pain to uncover the
       stories that guide us, and even ENJOY the process while we are at it!
-    actions: []
+    actions:
+      - label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowLeft
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
     feature:
       type: ImageBlock
       url: /images/tara-lynn-dirocco-side-view-600h.png
