@@ -52,7 +52,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
   - type: TextSection
-    colors: colors-a
+    colors: colors-h
     backgroundWidth: full
     title: My Education
     text: >
